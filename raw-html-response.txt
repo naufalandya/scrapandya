@@ -1,0 +1,1875 @@
+<!DOCTYPE html><html><head>
+<title>System AMR UIP2B </title>
+<meta http-equiv="Expires" content="Fri, Jun 12 1981 08:20:00 GMT">
+<meta http-equiv="Pragma" content="no-cache">
+<meta http-equiv="Cache-Control" content="no-cache">
+<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+<meta name="AUTHOR" content="10.6.199.199">
+<meta name="COPYRIGHT" content="Copyright (c) 2002 by 10.6.199.199">
+<meta name="KEYWORDS" content="">
+<meta name="DESCRIPTION" content="">
+<meta name="WCTRPARAMSET" content="fnp=">
+<meta name="ROBOTS" content="INDEX, FOLLOW">
+<link rel="SHORTCUT ICON" href="images/main.ico" type="image/x-icon">
+<link rel="StyleSheet" href="themes/Meter/style/style.css" type="text/css">
+<link rel="StyleSheet" href="include/style.css" type="text/css">
+<script language="javascript" src="addons/DateTimePicker/script.js"></script>
+<script language="javascript1.1" src="include/verify_form.js"></script>
+
+<script language="javascript">
+<!-- //
+var sSession = 'MAIL-XXXXXX-BZUwGoOgfyenSwbfhEmvjtLySCyGbSSF';
+var SUBsSession = 'LySCyGbSSF';
+var UIDsSession = '7c66ef59be';
+var ThemeName = 'Meter';
+var isUSER = '1';
+var UniquePage = 'UNIQUE_PAGE';
+function nolink() {
+	return true;
+}
+var SMD = new Array();
+function PopUpWindow(url,name,w,h,r,s,sys) { //sys,title,msg
+	var nname = name+"SwbfhEmvjtLySCyGbSSF_PopUp";
+	var WctrWnd = window.open(url + '&isnewpopup=1',name+"SwbfhEmvjtLySCyGbSSF_PopUp","toolbar=0,location=0,directories=0,status=0,menubar=0,resizable="+r+",scrollbars="+s+",width="+w+",height="+h+"");
+	SMD[nname] = WctrWnd;
+	if (WctrWnd.focus != null) WctrWnd.focus();
+	WctrWnd.opener.name = name + SUBsSession;
+}
+var remotehelp=null;
+function rshelp(id) {
+	var url = "./system.php?fnp=1&sSession=MAIL-XXXXXX-BZUwGoOgfyenSwbfhEmvjtLySCyGbSSF&sys=Help&subsys=view&mode=tips&id="+id;
+	remotehelp=window.open(url,"WINDOWHELP_SwbfhEmvjtLySCyGbSSF","width=505,height=435,status=0,resizable=yes,scrollbars=yes");
+	if (remotehelp != null) {
+	if (remotehelp.opener == null)
+		remotehelp.opener = self;
+	}
+	remotehelp.focus();
+}
+function wctr_confirm(e) {
+	var actlabel = e.value ? e.value : (e.title ? e.title : e.alt);
+	ans=window.confirm("You are about to "+actlabel+". Do you realy want to continue?");
+	if (ans) {
+		return true;
+	} else {
+		return false;
+	}
+}
+function wvd(str) {
+	alert(str);
+}
+function checkAllProperties() {
+	var c = 0;
+	for (i in SMD) {
+		if (SMD[i] && SMD[i].open && !SMD[i].closed && SMD[i].focus != null) { SMD[i].focus(); c++; }
+	}
+	return (c>0) ? false : true;
+}
+window.onunload = function() {
+	var is_reload_child = 0;
+	for (i in SMD) {
+		if (SMD[i] && SMD[i].open && !SMD[i].closed) {
+			if(SMD[i].is_reload || SMD[i].is_reload_parent) {
+				is_reload_child = 1;
+			}
+		}
+	}
+	if(is_reload_child == 0) {
+		for (i in SMD) {
+			if (SMD[i] && SMD[i].open && !SMD[i].closed) { SMD[i].close(); }
+		}
+	}
+}
+window.onfocus = function() {
+	return checkAllProperties();
+}
+window.onclick = function() {
+	return checkAllProperties();
+}
+window.onblur = function() {
+	if(window.opener) {
+		if(window.opener.SMD[window.name]) {
+		} else {
+			window.opener.SMD[window.name] = window;
+			window.opener.SMD[window.name].focus();
+		}
+	}
+}
+function _setPos(e) {
+	window.x = e.pageX;
+	window.y = e.pageY;
+}
+if (!document.all) {
+	document.onmousedown = _setPos;
+}
+function pointerPosition(e) {
+	if (!e) var e = window.event;
+	if (document.all) {
+		this.x = window.screenLeft + event.x;
+		this.y = window.screenTop + event.y;
+	} else {
+		this.x = window.screenX + window.x;
+		this.y = window.screenY + window.y;
+	}
+}
+// -->
+</script>
+<bgsound id="auIEEmb">
+</head>
+
+<body topmargin="2" leftmargin="2" rightmargin="2" bottommargin="1" bgcolor="#FFFFFF">
+<!-- WCTR_Tag=CenterBox -->
+<!-- WCTR_Tag=CenterMenubox -->
+<table class="BoxCenter2" cellpadding="4" width="100%" border="0">
+	<tbody><tr><td class="boxtitle" bgcolor="#DEDBD6"></td></tr>
+	<!-- <tr><td></td></tr> -->
+	<tr><td class="boxcontent"><!-- START OF LIST -->
+<!-- WCTR_Tag=Form -->
+<table cellpadding="0" cellspacing="0" border="0" style="padding-left:5;padding-right:5">
+<form action="system.php?fnp=1&amp;setdate=2024-12-14&amp;sSession=MAIL-XXXXXX-BZUwGoOgfyenSwbfhEmvjtLySCyGbSSF&amp;sys=Mtr_LP_Validation_KIT_20ch&amp;isnewpopup=1&amp;isnewpopup=1" method="GET" name="myform" enctype="multipart/form-data"></form>
+	<tbody><tr>
+	<td valign="top">
+<fieldset>
+<legend>Meter</legend>
+<table height="75" cellpadding="0" cellspacing="0" border="0"><tbody><tr><td valign="top">
+<table cellpadding="0" cellspacing="1" border="0">
+	<tbody><tr><td width="170">ID Titik Ukur</td><td>:</td><td></td></tr>
+	<tr><td>Meter Utama</td><td>:</td><td><input disabled="" type="text" name="sethtmlprop_id_mtr_mu" value="191702448"></td></tr>
+	<tr><td>Meter Pembanding</td><td>:</td><td><input disabled="" type="text" name="sethtmlprop_id_mtr_mp" value="MW-1802A087-02"></td></tr>
+</tbody></table>
+</td></tr></tbody></table>
+</fieldset>
+	</td>
+	<td valign="top">
+<fieldset>
+<legend>Periode</legend>
+<table height="75" cellpadding="0" cellspacing="0" border="0"><tbody><tr><td valign="top">
+<table cellpadding="0" cellspacing="1" border="0">
+	<tbody><tr><td>Awal</td><td>:</td><td><nobr><select name="sethtmlprop_starttime_lday" type="select" onchange="updateDatesethtmlprop_starttime('sethtmlprop_starttime')">
+<option value="1">01</option>
+<option value="2">02</option>
+<option value="3">03</option>
+<option value="4">04</option>
+<option value="5">05</option>
+<option value="6">06</option>
+<option value="7">07</option>
+<option value="8">08</option>
+<option value="9">09</option>
+<option value="10">10</option>
+<option value="11">11</option>
+<option value="12">12</option>
+<option value="13">13</option>
+<option value="14" selected="">14</option>
+<option value="15">15</option>
+<option value="16">16</option>
+<option value="17">17</option>
+<option value="18">18</option>
+<option value="19">19</option>
+<option value="20">20</option>
+<option value="21">21</option>
+<option value="22">22</option>
+<option value="23">23</option>
+<option value="24">24</option>
+<option value="25">25</option>
+<option value="26">26</option>
+<option value="27">27</option>
+<option value="28">28</option>
+<option value="29">29</option>
+<option value="30">30</option>
+<option value="31">31</option>
+</select><select name="sethtmlprop_starttime_lmonth" type="select" onchange="updateDatesethtmlprop_starttime('sethtmlprop_starttime')">
+<option value="1">01</option>
+<option value="2">02</option>
+<option value="3">03</option>
+<option value="4">04</option>
+<option value="5">05</option>
+<option value="6">06</option>
+<option value="7">07</option>
+<option value="8">08</option>
+<option value="9">09</option>
+<option value="10">10</option>
+<option value="11">11</option>
+<option value="12" selected="">12</option>
+</select><select name="sethtmlprop_starttime_lyear" type="select" onchange="updateDatesethtmlprop_starttime('sethtmlprop_starttime')">
+<option value="2014">2014</option>
+<option value="2015">2015</option>
+<option value="2016">2016</option>
+<option value="2017">2017</option>
+<option value="2018">2018</option>
+<option value="2019">2019</option>
+<option value="2020">2020</option>
+<option value="2021">2021</option>
+<option value="2022">2022</option>
+<option value="2023">2023</option>
+<option selected="" value="2024">2024</option>
+<option value="2025">2025</option>
+<option value="2026">2026</option>
+<option value="2027">2027</option>
+<option value="2028">2028</option>
+<option value="2029">2029</option>
+<option value="2030">2030</option>
+<option value="2031">2031</option>
+<option value="2032">2032</option>
+<option value="2033">2033</option>
+<option value="2034">2034</option>
+</select> <input onblur="updateDatesethtmlprop_starttime('sethtmlprop_starttime')" type="text" name="sethtmlprop_starttime_lhour" value="00" size="2" maxlength="2">:<input onblur="updateDatesethtmlprop_starttime('sethtmlprop_starttime')" type="text" name="sethtmlprop_starttime_lmin" value="00" size="2" maxlength="2"> <a href="javascript:void(0)" onclick="javascript:pickDate(document.myform.sethtmlprop_starttime,document.myform.sethtmlprop_starttime_lyear,document.myform.sethtmlprop_starttime_lmonth,document.myform.sethtmlprop_starttime_lday,'date','Meter')"><img src="./images/16x16_calendar.gif" align="absbottom" width="16" height="16" border="0"></a>
+			<script language="javascript">
+			<!-- //
+				function getvalListItemsethtmlprop_starttime(prop) //js func
+				{
+					var fselnum = prop.selectedIndex;
+					return prop.options[fselnum].value;
+				}
+				function getvalTextItemsethtmlprop_starttime(prop) //js func
+				{
+					return prop.value;
+				}
+				function updateDatesethtmlprop_starttime(name) //js func
+				{
+					var chkmday = eval('getvalListItemsethtmlprop_starttime(document.myform.'+name+'_lday)');
+					var chkmonth = eval('getvalListItemsethtmlprop_starttime(document.myform.'+name+'_lmonth)');
+					var chkyear = eval('getvalListItemsethtmlprop_starttime(document.myform.'+name+'_lyear)');
+			
+					var formdate = new Date(chkyear,chkmonth-1,chkmday);
+					eval('document.myform.'+name+'_lday.selectedIndex=formdate.getDate()-1');
+					eval('document.myform.'+name+'_lmonth.selectedIndex=formdate.getMonth()');
+
+					var day = eval('document.myform.'+name+'_lday.value');
+					var month = eval('document.myform.'+name+'_lmonth.value');
+					var hour = '';
+					var minute = '';
+					var second = '';
+			
+					hour = eval('document.myform.'+name+'_lhour.value');
+					minute = eval('document.myform.'+name+'_lmin.value');
+					var rdate = chkyear + '-' + month + '-' + day;
+					if(hour.length || minute.length || second.length) {
+						if(hour.length == 0) hour = '00';
+						if(minute.length == 0) minute = '00';
+						if(second.length == 0) second = '00';
+						rdate += ' ' + hour + ':' + minute + ':' + second;
+					}
+					eval('document.myform.'+name+'.value=rdate');
+				}
+			// -->
+			</script>
+			<input type="hidden" name="sethtmlprop_starttime" value="2024-12-14 00:00:00"><input type="hidden" name="sethtmlprop_starttime_FixDatebox" value="TRUE"></nobr></td></tr>
+	<tr><td>Akhir</td><td>:</td><td><nobr><select name="sethtmlprop_endtime_lday" type="select" onchange="updateDatesethtmlprop_endtime('sethtmlprop_endtime')">
+<option value="1">01</option>
+<option value="2">02</option>
+<option value="3">03</option>
+<option value="4">04</option>
+<option value="5">05</option>
+<option value="6">06</option>
+<option value="7">07</option>
+<option value="8">08</option>
+<option value="9">09</option>
+<option value="10">10</option>
+<option value="11">11</option>
+<option value="12">12</option>
+<option value="13">13</option>
+<option value="14" selected="">14</option>
+<option value="15">15</option>
+<option value="16">16</option>
+<option value="17">17</option>
+<option value="18">18</option>
+<option value="19">19</option>
+<option value="20">20</option>
+<option value="21">21</option>
+<option value="22">22</option>
+<option value="23">23</option>
+<option value="24">24</option>
+<option value="25">25</option>
+<option value="26">26</option>
+<option value="27">27</option>
+<option value="28">28</option>
+<option value="29">29</option>
+<option value="30">30</option>
+<option value="31">31</option>
+</select><select name="sethtmlprop_endtime_lmonth" type="select" onchange="updateDatesethtmlprop_endtime('sethtmlprop_endtime')">
+<option value="1">01</option>
+<option value="2">02</option>
+<option value="3">03</option>
+<option value="4">04</option>
+<option value="5">05</option>
+<option value="6">06</option>
+<option value="7">07</option>
+<option value="8">08</option>
+<option value="9">09</option>
+<option value="10">10</option>
+<option value="11">11</option>
+<option value="12" selected="">12</option>
+</select><select name="sethtmlprop_endtime_lyear" type="select" onchange="updateDatesethtmlprop_endtime('sethtmlprop_endtime')">
+<option value="2014">2014</option>
+<option value="2015">2015</option>
+<option value="2016">2016</option>
+<option value="2017">2017</option>
+<option value="2018">2018</option>
+<option value="2019">2019</option>
+<option value="2020">2020</option>
+<option value="2021">2021</option>
+<option value="2022">2022</option>
+<option value="2023">2023</option>
+<option selected="" value="2024">2024</option>
+<option value="2025">2025</option>
+<option value="2026">2026</option>
+<option value="2027">2027</option>
+<option value="2028">2028</option>
+<option value="2029">2029</option>
+<option value="2030">2030</option>
+<option value="2031">2031</option>
+<option value="2032">2032</option>
+<option value="2033">2033</option>
+<option value="2034">2034</option>
+</select> <input onblur="updateDatesethtmlprop_endtime('sethtmlprop_endtime')" type="text" name="sethtmlprop_endtime_lhour" value="23" size="2" maxlength="2">:<input onblur="updateDatesethtmlprop_endtime('sethtmlprop_endtime')" type="text" name="sethtmlprop_endtime_lmin" value="59" size="2" maxlength="2"> <a href="javascript:void(0)" onclick="javascript:pickDate(document.myform.sethtmlprop_endtime,document.myform.sethtmlprop_endtime_lyear,document.myform.sethtmlprop_endtime_lmonth,document.myform.sethtmlprop_endtime_lday,'date','Meter')"><img src="./images/16x16_calendar.gif" align="absbottom" width="16" height="16" border="0"></a>
+			<script language="javascript">
+			<!-- //
+				function getvalListItemsethtmlprop_endtime(prop) //js func
+				{
+					var fselnum = prop.selectedIndex;
+					return prop.options[fselnum].value;
+				}
+				function getvalTextItemsethtmlprop_endtime(prop) //js func
+				{
+					return prop.value;
+				}
+				function updateDatesethtmlprop_endtime(name) //js func
+				{
+					var chkmday = eval('getvalListItemsethtmlprop_endtime(document.myform.'+name+'_lday)');
+					var chkmonth = eval('getvalListItemsethtmlprop_endtime(document.myform.'+name+'_lmonth)');
+					var chkyear = eval('getvalListItemsethtmlprop_endtime(document.myform.'+name+'_lyear)');
+			
+					var formdate = new Date(chkyear,chkmonth-1,chkmday);
+					eval('document.myform.'+name+'_lday.selectedIndex=formdate.getDate()-1');
+					eval('document.myform.'+name+'_lmonth.selectedIndex=formdate.getMonth()');
+
+					var day = eval('document.myform.'+name+'_lday.value');
+					var month = eval('document.myform.'+name+'_lmonth.value');
+					var hour = '';
+					var minute = '';
+					var second = '';
+			
+					hour = eval('document.myform.'+name+'_lhour.value');
+					minute = eval('document.myform.'+name+'_lmin.value');
+					var rdate = chkyear + '-' + month + '-' + day;
+					if(hour.length || minute.length || second.length) {
+						if(hour.length == 0) hour = '00';
+						if(minute.length == 0) minute = '00';
+						if(second.length == 0) second = '00';
+						rdate += ' ' + hour + ':' + minute + ':' + second;
+					}
+					eval('document.myform.'+name+'.value=rdate');
+				}
+			// -->
+			</script>
+			<input type="hidden" name="sethtmlprop_endtime" value="2024-12-14 23:59:00"><input type="hidden" name="sethtmlprop_endtime_FixDatebox" value="TRUE"></nobr></td></tr>
+</tbody></table>
+	</td>
+	<td valign="top" style="padding-left:20;">
+		<input type="submit" name="action_ok" value="   OK   ">&nbsp;
+
+		<input type="hidden" name="sSession" value="MAIL-XXXXXX-BZUwGoOgfyenSwbfhEmvjtLySCyGbSSF">
+		<input type="hidden" name="sys" value="Mtr_LP_Validation_KIT_20ch">
+		<input type="hidden" name="subsys" value="List">
+		<input type="hidden" name="subsyspart" value="Detail">
+		<input type="hidden" name="action" value="post">
+		<input type="hidden" name="set_referer" value="">
+		<input type="hidden" name="id" value="1013102">
+
+		<input type="hidden" name="isnewpopup" value="1">
+		<input type="hidden" name="isfullscreen" value="0">
+	</td>
+	</tr>
+</tbody></table>
+</fieldset>
+	</td>
+	</tr>
+
+</tbody></table>
+<!-- endofWCTR_Tag -->
+<br>
+<style>
+.ls_grid_field_div
+{
+	border-left: 1px solid #ABABAB;
+}
+.ls_grid_field
+{
+	font-weight: normal;
+	background: #B7D2E8;
+	PADDING-LEFT: 4px;
+	PADDING-RIGHT: 4px;
+	border-top: 1px solid #ABABAB;
+	border-left: 1px solid #ABABAB;
+}
+.ls_text_grid_div
+{
+	border-left: 1px solid #ABABAB;
+	background: #FFFFFF;
+}
+.ls_text_grid
+{
+	PADDING-LEFT: 4px;
+	PADDING-RIGHT: 4px;
+	border-bottom: 1px solid #ABABAB;
+	border-left: 1px solid #ABABAB;
+	background: #FFFFFF;
+}
+div#LS_FreezePane_Container {
+	height: 330;
+}
+
+</style>
+<!-- WCTR_Tag=Excel -->
+<a href="system.php?fnp=1&amp;setdate=2024-12-14&amp;sSession=MAIL-XXXXXX-BZUwGoOgfyenSwbfhEmvjtLySCyGbSSF&amp;sys=Mtr_LP_Validation_KIT_20ch&amp;isnewpopup=1&amp;isnewpopup=1&amp;subsys=List&amp;subsyspart=Print&amp;sethtmlprop_load=MP&amp;sethtmlprop_id_bay=1013102&amp;sethtmlprop_starttime=2024-12-14 00:00:00&amp;sethtmlprop_endtime=2024-12-14 23:59:00"><img src="images/16x16_xlsfile.gif" border="0"></a>
+<!-- endofWCTR_Tag -->
+<!-- <div id="LS_FreezePane_Container"> -->
+<div id="divDBGrid">
+<table class="DBGridContent" width="100%" cellpadding="0" cellspacing="0" border="0" bgcolor="#FFFFFF">
+	<thead>
+<!-- WCTR_Tag=TableHeader -->
+	<tr height="24">
+		<th class="ls_grid_field" align="center" rowspan="2" style="border-bottom:.5pt solid #ABABAB;">Tanggal</th>
+		<th class="ls_grid_field" align="center" rowspan="2" style="border-bottom:.5pt solid #ABABAB;">Jam</th>
+		<th class="ls_grid_field" align="center" colspan="20">
+			<table cellpadding="0" cellspacing="0"><tbody><tr><td width="99%" align="center">Meter</td></tr></tbody></table>
+		</th>
+		<th class="ls_grid_field_div">&nbsp;</th>
+	</tr>
+	<tr height="24">
+		<th class="ls_grid_field" align="center" width="5%" style="border-bottom:.5pt solid #ABABAB;"><nobr>KWH OUT</nobr></th>
+		<th class="ls_grid_field" align="center" width="5%" style="border-bottom:.5pt solid #ABABAB;"><nobr>KVARH OUT</nobr></th>
+		<th class="ls_grid_field" align="center" width="5%" style="border-bottom:.5pt solid #ABABAB;"><nobr>KWH IN</nobr></th>
+		<th class="ls_grid_field" align="center" width="5%" style="border-bottom:.5pt solid #ABABAB;"><nobr>KVARH IN</nobr></th>
+
+		<th class="ls_grid_field" align="center" width="5%" style="border-bottom:.5pt solid #ABABAB;">KV-R</th>
+		<th class="ls_grid_field" align="center" width="5%" style="border-bottom:.5pt solid #ABABAB;">KV-S</th>
+		<th class="ls_grid_field" align="center" width="5%" style="border-bottom:.5pt solid #ABABAB;">KV-T</th>
+		<th class="ls_grid_field" align="center" width="5%" style="border-bottom:.5pt solid #ABABAB;">IR</th>
+		<th class="ls_grid_field" align="center" width="5%" style="border-bottom:.5pt solid #ABABAB;">IS</th>
+		<th class="ls_grid_field" align="center" width="5%" style="border-bottom:.5pt solid #ABABAB;">IT</th>
+
+		<th class="ls_grid_field" align="center" width="5%" style="border-bottom:.5pt solid #ABABAB;">PF</th>
+		<th class="ls_grid_field" align="center" width="5%" style="border-bottom:.5pt solid #ABABAB;">FREQ</th>
+		<th class="ls_grid_field" align="center" width="5%" style="border-bottom:.5pt solid #ABABAB;"><nobr>MW OUT</nobr></th>
+		<th class="ls_grid_field" align="center" width="5%" style="border-bottom:.5pt solid #ABABAB;"><nobr>MVAR OUT</nobr></th>
+		<th class="ls_grid_field" align="center" width="5%" style="border-bottom:.5pt solid #ABABAB;">CH15</th>
+		<th class="ls_grid_field" align="center" width="5%" style="border-bottom:.5pt solid #ABABAB;">CH16</th>
+		<th class="ls_grid_field" align="center" width="5%" style="border-bottom:.5pt solid #ABABAB;">CH17</th>
+		<th class="ls_grid_field" align="center" width="5%" style="border-bottom:.5pt solid #ABABAB;">CH18</th>
+		<th class="ls_grid_field" align="center" width="5%" style="border-bottom:.5pt solid #ABABAB;">CH19</th>
+		<th class="ls_grid_field" align="center" width="5%" style="border-bottom:.5pt solid #ABABAB;">CH20</th>
+
+		<th class="ls_grid_field_div">&nbsp;</th>
+	</tr>
+<!-- endofWCTR_Tag -->
+	</thead>
+	<tbody>
+<!-- WCTR_Tag=TableData -->
+	<tr>
+		<td class="ls_text_grid" align="right">14/12/2024</td>
+		<td class="ls_text_grid" align="right">00:30</td>
+		<td class="ls_text_grid" align="right">&nbsp;<nobr>0</nobr></td>
+		<td class="ls_text_grid" align="right">&nbsp;<nobr>0</nobr></td>
+		<td class="ls_text_grid" align="right">&nbsp;<nobr>0</nobr></td>
+		<td class="ls_text_grid" align="right">&nbsp;<nobr>0</nobr></td>
+
+		<td class="ls_text_grid" align="right">&nbsp;<nobr>0</nobr></td>
+		<td class="ls_text_grid" align="right">&nbsp;<nobr>0</nobr></td>
+		<td class="ls_text_grid" align="right">&nbsp;<nobr>0</nobr></td>
+		<td class="ls_text_grid" align="right">&nbsp;<nobr>0</nobr></td>
+		<td class="ls_text_grid" align="right">&nbsp;<nobr>0</nobr></td>
+		<td class="ls_text_grid" align="right">&nbsp;<nobr>0</nobr></td>
+
+		<td class="ls_text_grid" align="right">&nbsp;<nobr>-1</nobr></td>
+		<td class="ls_text_grid" align="right">&nbsp;<nobr>0</nobr></td>
+		<td class="ls_text_grid" align="right">&nbsp;<nobr>0</nobr></td>
+		<td class="ls_text_grid" align="right">&nbsp;<nobr>0</nobr></td>
+		<td class="ls_text_grid" align="right">&nbsp;<nobr></nobr></td>
+		<td class="ls_text_grid" align="right">&nbsp;<nobr></nobr></td>
+		<td class="ls_text_grid" align="right">&nbsp;<nobr></nobr></td>
+		<td class="ls_text_grid" align="right">&nbsp;<nobr></nobr></td>
+		<td class="ls_text_grid" align="right">&nbsp;<nobr></nobr></td>
+		<td class="ls_text_grid" align="right">&nbsp;<nobr></nobr></td>
+
+		<td class="ls_text_grid_div">&nbsp;</td>
+	</tr>
+<!-- endofWCTR_Tag -->
+	<tr>
+		<td class="ls_text_grid" align="right">14/12/2024</td>
+		<td class="ls_text_grid" align="right">01:00</td>
+		<td class="ls_text_grid" align="right">&nbsp;<nobr>0</nobr></td>
+		<td class="ls_text_grid" align="right">&nbsp;<nobr>0</nobr></td>
+		<td class="ls_text_grid" align="right">&nbsp;<nobr>0</nobr></td>
+		<td class="ls_text_grid" align="right">&nbsp;<nobr>0</nobr></td>
+
+		<td class="ls_text_grid" align="right">&nbsp;<nobr>0</nobr></td>
+		<td class="ls_text_grid" align="right">&nbsp;<nobr>0</nobr></td>
+		<td class="ls_text_grid" align="right">&nbsp;<nobr>0</nobr></td>
+		<td class="ls_text_grid" align="right">&nbsp;<nobr>0</nobr></td>
+		<td class="ls_text_grid" align="right">&nbsp;<nobr>0</nobr></td>
+		<td class="ls_text_grid" align="right">&nbsp;<nobr>0</nobr></td>
+
+		<td class="ls_text_grid" align="right">&nbsp;<nobr>-1</nobr></td>
+		<td class="ls_text_grid" align="right">&nbsp;<nobr>0</nobr></td>
+		<td class="ls_text_grid" align="right">&nbsp;<nobr>0</nobr></td>
+		<td class="ls_text_grid" align="right">&nbsp;<nobr>0</nobr></td>
+		<td class="ls_text_grid" align="right">&nbsp;<nobr></nobr></td>
+		<td class="ls_text_grid" align="right">&nbsp;<nobr></nobr></td>
+		<td class="ls_text_grid" align="right">&nbsp;<nobr></nobr></td>
+		<td class="ls_text_grid" align="right">&nbsp;<nobr></nobr></td>
+		<td class="ls_text_grid" align="right">&nbsp;<nobr></nobr></td>
+		<td class="ls_text_grid" align="right">&nbsp;<nobr></nobr></td>
+
+		<td class="ls_text_grid_div">&nbsp;</td>
+	</tr>
+<!-- endofWCTR_Tag -->
+	<tr>
+		<td class="ls_text_grid" align="right">14/12/2024</td>
+		<td class="ls_text_grid" align="right">01:30</td>
+		<td class="ls_text_grid" align="right">&nbsp;<nobr>0</nobr></td>
+		<td class="ls_text_grid" align="right">&nbsp;<nobr>0</nobr></td>
+		<td class="ls_text_grid" align="right">&nbsp;<nobr>0</nobr></td>
+		<td class="ls_text_grid" align="right">&nbsp;<nobr>0</nobr></td>
+
+		<td class="ls_text_grid" align="right">&nbsp;<nobr>0</nobr></td>
+		<td class="ls_text_grid" align="right">&nbsp;<nobr>0</nobr></td>
+		<td class="ls_text_grid" align="right">&nbsp;<nobr>0</nobr></td>
+		<td class="ls_text_grid" align="right">&nbsp;<nobr>0</nobr></td>
+		<td class="ls_text_grid" align="right">&nbsp;<nobr>0</nobr></td>
+		<td class="ls_text_grid" align="right">&nbsp;<nobr>0</nobr></td>
+
+		<td class="ls_text_grid" align="right">&nbsp;<nobr>-1</nobr></td>
+		<td class="ls_text_grid" align="right">&nbsp;<nobr>0</nobr></td>
+		<td class="ls_text_grid" align="right">&nbsp;<nobr>0</nobr></td>
+		<td class="ls_text_grid" align="right">&nbsp;<nobr>0</nobr></td>
+		<td class="ls_text_grid" align="right">&nbsp;<nobr></nobr></td>
+		<td class="ls_text_grid" align="right">&nbsp;<nobr></nobr></td>
+		<td class="ls_text_grid" align="right">&nbsp;<nobr></nobr></td>
+		<td class="ls_text_grid" align="right">&nbsp;<nobr></nobr></td>
+		<td class="ls_text_grid" align="right">&nbsp;<nobr></nobr></td>
+		<td class="ls_text_grid" align="right">&nbsp;<nobr></nobr></td>
+
+		<td class="ls_text_grid_div">&nbsp;</td>
+	</tr>
+<!-- endofWCTR_Tag -->
+	<tr>
+		<td class="ls_text_grid" align="right">14/12/2024</td>
+		<td class="ls_text_grid" align="right">02:00</td>
+		<td class="ls_text_grid" align="right">&nbsp;<nobr>0</nobr></td>
+		<td class="ls_text_grid" align="right">&nbsp;<nobr>0</nobr></td>
+		<td class="ls_text_grid" align="right">&nbsp;<nobr>0</nobr></td>
+		<td class="ls_text_grid" align="right">&nbsp;<nobr>0</nobr></td>
+
+		<td class="ls_text_grid" align="right">&nbsp;<nobr>0</nobr></td>
+		<td class="ls_text_grid" align="right">&nbsp;<nobr>0</nobr></td>
+		<td class="ls_text_grid" align="right">&nbsp;<nobr>0</nobr></td>
+		<td class="ls_text_grid" align="right">&nbsp;<nobr>0</nobr></td>
+		<td class="ls_text_grid" align="right">&nbsp;<nobr>0</nobr></td>
+		<td class="ls_text_grid" align="right">&nbsp;<nobr>0</nobr></td>
+
+		<td class="ls_text_grid" align="right">&nbsp;<nobr>-1</nobr></td>
+		<td class="ls_text_grid" align="right">&nbsp;<nobr>0</nobr></td>
+		<td class="ls_text_grid" align="right">&nbsp;<nobr>0</nobr></td>
+		<td class="ls_text_grid" align="right">&nbsp;<nobr>0</nobr></td>
+		<td class="ls_text_grid" align="right">&nbsp;<nobr></nobr></td>
+		<td class="ls_text_grid" align="right">&nbsp;<nobr></nobr></td>
+		<td class="ls_text_grid" align="right">&nbsp;<nobr></nobr></td>
+		<td class="ls_text_grid" align="right">&nbsp;<nobr></nobr></td>
+		<td class="ls_text_grid" align="right">&nbsp;<nobr></nobr></td>
+		<td class="ls_text_grid" align="right">&nbsp;<nobr></nobr></td>
+
+		<td class="ls_text_grid_div">&nbsp;</td>
+	</tr>
+<!-- endofWCTR_Tag -->
+	<tr>
+		<td class="ls_text_grid" align="right">14/12/2024</td>
+		<td class="ls_text_grid" align="right">02:30</td>
+		<td class="ls_text_grid" align="right">&nbsp;<nobr>0</nobr></td>
+		<td class="ls_text_grid" align="right">&nbsp;<nobr>0</nobr></td>
+		<td class="ls_text_grid" align="right">&nbsp;<nobr>0</nobr></td>
+		<td class="ls_text_grid" align="right">&nbsp;<nobr>0</nobr></td>
+
+		<td class="ls_text_grid" align="right">&nbsp;<nobr>0</nobr></td>
+		<td class="ls_text_grid" align="right">&nbsp;<nobr>0</nobr></td>
+		<td class="ls_text_grid" align="right">&nbsp;<nobr>0</nobr></td>
+		<td class="ls_text_grid" align="right">&nbsp;<nobr>0</nobr></td>
+		<td class="ls_text_grid" align="right">&nbsp;<nobr>0</nobr></td>
+		<td class="ls_text_grid" align="right">&nbsp;<nobr>0</nobr></td>
+
+		<td class="ls_text_grid" align="right">&nbsp;<nobr>-1</nobr></td>
+		<td class="ls_text_grid" align="right">&nbsp;<nobr>0</nobr></td>
+		<td class="ls_text_grid" align="right">&nbsp;<nobr>0</nobr></td>
+		<td class="ls_text_grid" align="right">&nbsp;<nobr>0</nobr></td>
+		<td class="ls_text_grid" align="right">&nbsp;<nobr></nobr></td>
+		<td class="ls_text_grid" align="right">&nbsp;<nobr></nobr></td>
+		<td class="ls_text_grid" align="right">&nbsp;<nobr></nobr></td>
+		<td class="ls_text_grid" align="right">&nbsp;<nobr></nobr></td>
+		<td class="ls_text_grid" align="right">&nbsp;<nobr></nobr></td>
+		<td class="ls_text_grid" align="right">&nbsp;<nobr></nobr></td>
+
+		<td class="ls_text_grid_div">&nbsp;</td>
+	</tr>
+<!-- endofWCTR_Tag -->
+	<tr>
+		<td class="ls_text_grid" align="right">14/12/2024</td>
+		<td class="ls_text_grid" align="right">03:00</td>
+		<td class="ls_text_grid" align="right">&nbsp;<nobr>0</nobr></td>
+		<td class="ls_text_grid" align="right">&nbsp;<nobr>0</nobr></td>
+		<td class="ls_text_grid" align="right">&nbsp;<nobr>0</nobr></td>
+		<td class="ls_text_grid" align="right">&nbsp;<nobr>0</nobr></td>
+
+		<td class="ls_text_grid" align="right">&nbsp;<nobr>0</nobr></td>
+		<td class="ls_text_grid" align="right">&nbsp;<nobr>0</nobr></td>
+		<td class="ls_text_grid" align="right">&nbsp;<nobr>0</nobr></td>
+		<td class="ls_text_grid" align="right">&nbsp;<nobr>0</nobr></td>
+		<td class="ls_text_grid" align="right">&nbsp;<nobr>0</nobr></td>
+		<td class="ls_text_grid" align="right">&nbsp;<nobr>0</nobr></td>
+
+		<td class="ls_text_grid" align="right">&nbsp;<nobr>-1</nobr></td>
+		<td class="ls_text_grid" align="right">&nbsp;<nobr>0</nobr></td>
+		<td class="ls_text_grid" align="right">&nbsp;<nobr>0</nobr></td>
+		<td class="ls_text_grid" align="right">&nbsp;<nobr>0</nobr></td>
+		<td class="ls_text_grid" align="right">&nbsp;<nobr></nobr></td>
+		<td class="ls_text_grid" align="right">&nbsp;<nobr></nobr></td>
+		<td class="ls_text_grid" align="right">&nbsp;<nobr></nobr></td>
+		<td class="ls_text_grid" align="right">&nbsp;<nobr></nobr></td>
+		<td class="ls_text_grid" align="right">&nbsp;<nobr></nobr></td>
+		<td class="ls_text_grid" align="right">&nbsp;<nobr></nobr></td>
+
+		<td class="ls_text_grid_div">&nbsp;</td>
+	</tr>
+<!-- endofWCTR_Tag -->
+	<tr>
+		<td class="ls_text_grid" align="right">14/12/2024</td>
+		<td class="ls_text_grid" align="right">03:30</td>
+		<td class="ls_text_grid" align="right">&nbsp;<nobr>0</nobr></td>
+		<td class="ls_text_grid" align="right">&nbsp;<nobr>0</nobr></td>
+		<td class="ls_text_grid" align="right">&nbsp;<nobr>0</nobr></td>
+		<td class="ls_text_grid" align="right">&nbsp;<nobr>0</nobr></td>
+
+		<td class="ls_text_grid" align="right">&nbsp;<nobr>0</nobr></td>
+		<td class="ls_text_grid" align="right">&nbsp;<nobr>0</nobr></td>
+		<td class="ls_text_grid" align="right">&nbsp;<nobr>0</nobr></td>
+		<td class="ls_text_grid" align="right">&nbsp;<nobr>0</nobr></td>
+		<td class="ls_text_grid" align="right">&nbsp;<nobr>0</nobr></td>
+		<td class="ls_text_grid" align="right">&nbsp;<nobr>0</nobr></td>
+
+		<td class="ls_text_grid" align="right">&nbsp;<nobr>-1</nobr></td>
+		<td class="ls_text_grid" align="right">&nbsp;<nobr>0</nobr></td>
+		<td class="ls_text_grid" align="right">&nbsp;<nobr>0</nobr></td>
+		<td class="ls_text_grid" align="right">&nbsp;<nobr>0</nobr></td>
+		<td class="ls_text_grid" align="right">&nbsp;<nobr></nobr></td>
+		<td class="ls_text_grid" align="right">&nbsp;<nobr></nobr></td>
+		<td class="ls_text_grid" align="right">&nbsp;<nobr></nobr></td>
+		<td class="ls_text_grid" align="right">&nbsp;<nobr></nobr></td>
+		<td class="ls_text_grid" align="right">&nbsp;<nobr></nobr></td>
+		<td class="ls_text_grid" align="right">&nbsp;<nobr></nobr></td>
+
+		<td class="ls_text_grid_div">&nbsp;</td>
+	</tr>
+<!-- endofWCTR_Tag -->
+	<tr>
+		<td class="ls_text_grid" align="right">14/12/2024</td>
+		<td class="ls_text_grid" align="right">04:00</td>
+		<td class="ls_text_grid" align="right">&nbsp;<nobr>0</nobr></td>
+		<td class="ls_text_grid" align="right">&nbsp;<nobr>0</nobr></td>
+		<td class="ls_text_grid" align="right">&nbsp;<nobr>0</nobr></td>
+		<td class="ls_text_grid" align="right">&nbsp;<nobr>0</nobr></td>
+
+		<td class="ls_text_grid" align="right">&nbsp;<nobr>0</nobr></td>
+		<td class="ls_text_grid" align="right">&nbsp;<nobr>0</nobr></td>
+		<td class="ls_text_grid" align="right">&nbsp;<nobr>0</nobr></td>
+		<td class="ls_text_grid" align="right">&nbsp;<nobr>0</nobr></td>
+		<td class="ls_text_grid" align="right">&nbsp;<nobr>0</nobr></td>
+		<td class="ls_text_grid" align="right">&nbsp;<nobr>0</nobr></td>
+
+		<td class="ls_text_grid" align="right">&nbsp;<nobr>-1</nobr></td>
+		<td class="ls_text_grid" align="right">&nbsp;<nobr>0</nobr></td>
+		<td class="ls_text_grid" align="right">&nbsp;<nobr>0</nobr></td>
+		<td class="ls_text_grid" align="right">&nbsp;<nobr>0</nobr></td>
+		<td class="ls_text_grid" align="right">&nbsp;<nobr></nobr></td>
+		<td class="ls_text_grid" align="right">&nbsp;<nobr></nobr></td>
+		<td class="ls_text_grid" align="right">&nbsp;<nobr></nobr></td>
+		<td class="ls_text_grid" align="right">&nbsp;<nobr></nobr></td>
+		<td class="ls_text_grid" align="right">&nbsp;<nobr></nobr></td>
+		<td class="ls_text_grid" align="right">&nbsp;<nobr></nobr></td>
+
+		<td class="ls_text_grid_div">&nbsp;</td>
+	</tr>
+<!-- endofWCTR_Tag -->
+	<tr>
+		<td class="ls_text_grid" align="right">14/12/2024</td>
+		<td class="ls_text_grid" align="right">04:30</td>
+		<td class="ls_text_grid" align="right">&nbsp;<nobr>0</nobr></td>
+		<td class="ls_text_grid" align="right">&nbsp;<nobr>0</nobr></td>
+		<td class="ls_text_grid" align="right">&nbsp;<nobr>0</nobr></td>
+		<td class="ls_text_grid" align="right">&nbsp;<nobr>0</nobr></td>
+
+		<td class="ls_text_grid" align="right">&nbsp;<nobr>0</nobr></td>
+		<td class="ls_text_grid" align="right">&nbsp;<nobr>0</nobr></td>
+		<td class="ls_text_grid" align="right">&nbsp;<nobr>0</nobr></td>
+		<td class="ls_text_grid" align="right">&nbsp;<nobr>0</nobr></td>
+		<td class="ls_text_grid" align="right">&nbsp;<nobr>0</nobr></td>
+		<td class="ls_text_grid" align="right">&nbsp;<nobr>0</nobr></td>
+
+		<td class="ls_text_grid" align="right">&nbsp;<nobr>-1</nobr></td>
+		<td class="ls_text_grid" align="right">&nbsp;<nobr>0</nobr></td>
+		<td class="ls_text_grid" align="right">&nbsp;<nobr>0</nobr></td>
+		<td class="ls_text_grid" align="right">&nbsp;<nobr>0</nobr></td>
+		<td class="ls_text_grid" align="right">&nbsp;<nobr></nobr></td>
+		<td class="ls_text_grid" align="right">&nbsp;<nobr></nobr></td>
+		<td class="ls_text_grid" align="right">&nbsp;<nobr></nobr></td>
+		<td class="ls_text_grid" align="right">&nbsp;<nobr></nobr></td>
+		<td class="ls_text_grid" align="right">&nbsp;<nobr></nobr></td>
+		<td class="ls_text_grid" align="right">&nbsp;<nobr></nobr></td>
+
+		<td class="ls_text_grid_div">&nbsp;</td>
+	</tr>
+<!-- endofWCTR_Tag -->
+	<tr>
+		<td class="ls_text_grid" align="right">14/12/2024</td>
+		<td class="ls_text_grid" align="right">05:00</td>
+		<td class="ls_text_grid" align="right">&nbsp;<nobr>0</nobr></td>
+		<td class="ls_text_grid" align="right">&nbsp;<nobr>0</nobr></td>
+		<td class="ls_text_grid" align="right">&nbsp;<nobr>0</nobr></td>
+		<td class="ls_text_grid" align="right">&nbsp;<nobr>0</nobr></td>
+
+		<td class="ls_text_grid" align="right">&nbsp;<nobr>0</nobr></td>
+		<td class="ls_text_grid" align="right">&nbsp;<nobr>0</nobr></td>
+		<td class="ls_text_grid" align="right">&nbsp;<nobr>0</nobr></td>
+		<td class="ls_text_grid" align="right">&nbsp;<nobr>0</nobr></td>
+		<td class="ls_text_grid" align="right">&nbsp;<nobr>0</nobr></td>
+		<td class="ls_text_grid" align="right">&nbsp;<nobr>0</nobr></td>
+
+		<td class="ls_text_grid" align="right">&nbsp;<nobr>-1</nobr></td>
+		<td class="ls_text_grid" align="right">&nbsp;<nobr>0</nobr></td>
+		<td class="ls_text_grid" align="right">&nbsp;<nobr>0</nobr></td>
+		<td class="ls_text_grid" align="right">&nbsp;<nobr>0</nobr></td>
+		<td class="ls_text_grid" align="right">&nbsp;<nobr></nobr></td>
+		<td class="ls_text_grid" align="right">&nbsp;<nobr></nobr></td>
+		<td class="ls_text_grid" align="right">&nbsp;<nobr></nobr></td>
+		<td class="ls_text_grid" align="right">&nbsp;<nobr></nobr></td>
+		<td class="ls_text_grid" align="right">&nbsp;<nobr></nobr></td>
+		<td class="ls_text_grid" align="right">&nbsp;<nobr></nobr></td>
+
+		<td class="ls_text_grid_div">&nbsp;</td>
+	</tr>
+<!-- endofWCTR_Tag -->
+	<tr>
+		<td class="ls_text_grid" align="right">14/12/2024</td>
+		<td class="ls_text_grid" align="right">05:30</td>
+		<td class="ls_text_grid" align="right">&nbsp;<nobr>0</nobr></td>
+		<td class="ls_text_grid" align="right">&nbsp;<nobr>0</nobr></td>
+		<td class="ls_text_grid" align="right">&nbsp;<nobr>0</nobr></td>
+		<td class="ls_text_grid" align="right">&nbsp;<nobr>0</nobr></td>
+
+		<td class="ls_text_grid" align="right">&nbsp;<nobr>0</nobr></td>
+		<td class="ls_text_grid" align="right">&nbsp;<nobr>0</nobr></td>
+		<td class="ls_text_grid" align="right">&nbsp;<nobr>0</nobr></td>
+		<td class="ls_text_grid" align="right">&nbsp;<nobr>0</nobr></td>
+		<td class="ls_text_grid" align="right">&nbsp;<nobr>0</nobr></td>
+		<td class="ls_text_grid" align="right">&nbsp;<nobr>0</nobr></td>
+
+		<td class="ls_text_grid" align="right">&nbsp;<nobr>-1</nobr></td>
+		<td class="ls_text_grid" align="right">&nbsp;<nobr>0</nobr></td>
+		<td class="ls_text_grid" align="right">&nbsp;<nobr>0</nobr></td>
+		<td class="ls_text_grid" align="right">&nbsp;<nobr>0</nobr></td>
+		<td class="ls_text_grid" align="right">&nbsp;<nobr></nobr></td>
+		<td class="ls_text_grid" align="right">&nbsp;<nobr></nobr></td>
+		<td class="ls_text_grid" align="right">&nbsp;<nobr></nobr></td>
+		<td class="ls_text_grid" align="right">&nbsp;<nobr></nobr></td>
+		<td class="ls_text_grid" align="right">&nbsp;<nobr></nobr></td>
+		<td class="ls_text_grid" align="right">&nbsp;<nobr></nobr></td>
+
+		<td class="ls_text_grid_div">&nbsp;</td>
+	</tr>
+<!-- endofWCTR_Tag -->
+	<tr>
+		<td class="ls_text_grid" align="right">14/12/2024</td>
+		<td class="ls_text_grid" align="right">06:00</td>
+		<td class="ls_text_grid" align="right">&nbsp;<nobr>0</nobr></td>
+		<td class="ls_text_grid" align="right">&nbsp;<nobr>0</nobr></td>
+		<td class="ls_text_grid" align="right">&nbsp;<nobr>0</nobr></td>
+		<td class="ls_text_grid" align="right">&nbsp;<nobr>0</nobr></td>
+
+		<td class="ls_text_grid" align="right">&nbsp;<nobr>0</nobr></td>
+		<td class="ls_text_grid" align="right">&nbsp;<nobr>0</nobr></td>
+		<td class="ls_text_grid" align="right">&nbsp;<nobr>0</nobr></td>
+		<td class="ls_text_grid" align="right">&nbsp;<nobr>0</nobr></td>
+		<td class="ls_text_grid" align="right">&nbsp;<nobr>0</nobr></td>
+		<td class="ls_text_grid" align="right">&nbsp;<nobr>0</nobr></td>
+
+		<td class="ls_text_grid" align="right">&nbsp;<nobr>-1</nobr></td>
+		<td class="ls_text_grid" align="right">&nbsp;<nobr>0</nobr></td>
+		<td class="ls_text_grid" align="right">&nbsp;<nobr>0</nobr></td>
+		<td class="ls_text_grid" align="right">&nbsp;<nobr>0</nobr></td>
+		<td class="ls_text_grid" align="right">&nbsp;<nobr></nobr></td>
+		<td class="ls_text_grid" align="right">&nbsp;<nobr></nobr></td>
+		<td class="ls_text_grid" align="right">&nbsp;<nobr></nobr></td>
+		<td class="ls_text_grid" align="right">&nbsp;<nobr></nobr></td>
+		<td class="ls_text_grid" align="right">&nbsp;<nobr></nobr></td>
+		<td class="ls_text_grid" align="right">&nbsp;<nobr></nobr></td>
+
+		<td class="ls_text_grid_div">&nbsp;</td>
+	</tr>
+<!-- endofWCTR_Tag -->
+	<tr>
+		<td class="ls_text_grid" align="right">14/12/2024</td>
+		<td class="ls_text_grid" align="right">06:30</td>
+		<td class="ls_text_grid" align="right">&nbsp;<nobr>0</nobr></td>
+		<td class="ls_text_grid" align="right">&nbsp;<nobr>0</nobr></td>
+		<td class="ls_text_grid" align="right">&nbsp;<nobr>0</nobr></td>
+		<td class="ls_text_grid" align="right">&nbsp;<nobr>0</nobr></td>
+
+		<td class="ls_text_grid" align="right">&nbsp;<nobr>0</nobr></td>
+		<td class="ls_text_grid" align="right">&nbsp;<nobr>0</nobr></td>
+		<td class="ls_text_grid" align="right">&nbsp;<nobr>0</nobr></td>
+		<td class="ls_text_grid" align="right">&nbsp;<nobr>0</nobr></td>
+		<td class="ls_text_grid" align="right">&nbsp;<nobr>0</nobr></td>
+		<td class="ls_text_grid" align="right">&nbsp;<nobr>0</nobr></td>
+
+		<td class="ls_text_grid" align="right">&nbsp;<nobr>-1</nobr></td>
+		<td class="ls_text_grid" align="right">&nbsp;<nobr>0</nobr></td>
+		<td class="ls_text_grid" align="right">&nbsp;<nobr>0</nobr></td>
+		<td class="ls_text_grid" align="right">&nbsp;<nobr>0</nobr></td>
+		<td class="ls_text_grid" align="right">&nbsp;<nobr></nobr></td>
+		<td class="ls_text_grid" align="right">&nbsp;<nobr></nobr></td>
+		<td class="ls_text_grid" align="right">&nbsp;<nobr></nobr></td>
+		<td class="ls_text_grid" align="right">&nbsp;<nobr></nobr></td>
+		<td class="ls_text_grid" align="right">&nbsp;<nobr></nobr></td>
+		<td class="ls_text_grid" align="right">&nbsp;<nobr></nobr></td>
+
+		<td class="ls_text_grid_div">&nbsp;</td>
+	</tr>
+<!-- endofWCTR_Tag -->
+	<tr>
+		<td class="ls_text_grid" align="right">14/12/2024</td>
+		<td class="ls_text_grid" align="right">07:00</td>
+		<td class="ls_text_grid" align="right">&nbsp;<nobr>0</nobr></td>
+		<td class="ls_text_grid" align="right">&nbsp;<nobr>0</nobr></td>
+		<td class="ls_text_grid" align="right">&nbsp;<nobr>0</nobr></td>
+		<td class="ls_text_grid" align="right">&nbsp;<nobr>0</nobr></td>
+
+		<td class="ls_text_grid" align="right">&nbsp;<nobr>0</nobr></td>
+		<td class="ls_text_grid" align="right">&nbsp;<nobr>0</nobr></td>
+		<td class="ls_text_grid" align="right">&nbsp;<nobr>0</nobr></td>
+		<td class="ls_text_grid" align="right">&nbsp;<nobr>0</nobr></td>
+		<td class="ls_text_grid" align="right">&nbsp;<nobr>0</nobr></td>
+		<td class="ls_text_grid" align="right">&nbsp;<nobr>0</nobr></td>
+
+		<td class="ls_text_grid" align="right">&nbsp;<nobr>-1</nobr></td>
+		<td class="ls_text_grid" align="right">&nbsp;<nobr>0</nobr></td>
+		<td class="ls_text_grid" align="right">&nbsp;<nobr>0</nobr></td>
+		<td class="ls_text_grid" align="right">&nbsp;<nobr>0</nobr></td>
+		<td class="ls_text_grid" align="right">&nbsp;<nobr></nobr></td>
+		<td class="ls_text_grid" align="right">&nbsp;<nobr></nobr></td>
+		<td class="ls_text_grid" align="right">&nbsp;<nobr></nobr></td>
+		<td class="ls_text_grid" align="right">&nbsp;<nobr></nobr></td>
+		<td class="ls_text_grid" align="right">&nbsp;<nobr></nobr></td>
+		<td class="ls_text_grid" align="right">&nbsp;<nobr></nobr></td>
+
+		<td class="ls_text_grid_div">&nbsp;</td>
+	</tr>
+<!-- endofWCTR_Tag -->
+	<tr>
+		<td class="ls_text_grid" align="right">14/12/2024</td>
+		<td class="ls_text_grid" align="right">07:30</td>
+		<td class="ls_text_grid" align="right">&nbsp;<nobr>0</nobr></td>
+		<td class="ls_text_grid" align="right">&nbsp;<nobr>0</nobr></td>
+		<td class="ls_text_grid" align="right">&nbsp;<nobr>0</nobr></td>
+		<td class="ls_text_grid" align="right">&nbsp;<nobr>0</nobr></td>
+
+		<td class="ls_text_grid" align="right">&nbsp;<nobr>0</nobr></td>
+		<td class="ls_text_grid" align="right">&nbsp;<nobr>0</nobr></td>
+		<td class="ls_text_grid" align="right">&nbsp;<nobr>0</nobr></td>
+		<td class="ls_text_grid" align="right">&nbsp;<nobr>0</nobr></td>
+		<td class="ls_text_grid" align="right">&nbsp;<nobr>0</nobr></td>
+		<td class="ls_text_grid" align="right">&nbsp;<nobr>0</nobr></td>
+
+		<td class="ls_text_grid" align="right">&nbsp;<nobr>-1</nobr></td>
+		<td class="ls_text_grid" align="right">&nbsp;<nobr>0</nobr></td>
+		<td class="ls_text_grid" align="right">&nbsp;<nobr>0</nobr></td>
+		<td class="ls_text_grid" align="right">&nbsp;<nobr>0</nobr></td>
+		<td class="ls_text_grid" align="right">&nbsp;<nobr></nobr></td>
+		<td class="ls_text_grid" align="right">&nbsp;<nobr></nobr></td>
+		<td class="ls_text_grid" align="right">&nbsp;<nobr></nobr></td>
+		<td class="ls_text_grid" align="right">&nbsp;<nobr></nobr></td>
+		<td class="ls_text_grid" align="right">&nbsp;<nobr></nobr></td>
+		<td class="ls_text_grid" align="right">&nbsp;<nobr></nobr></td>
+
+		<td class="ls_text_grid_div">&nbsp;</td>
+	</tr>
+<!-- endofWCTR_Tag -->
+	<tr>
+		<td class="ls_text_grid" align="right">14/12/2024</td>
+		<td class="ls_text_grid" align="right">08:00</td>
+		<td class="ls_text_grid" align="right">&nbsp;<nobr>0</nobr></td>
+		<td class="ls_text_grid" align="right">&nbsp;<nobr>0</nobr></td>
+		<td class="ls_text_grid" align="right">&nbsp;<nobr>0</nobr></td>
+		<td class="ls_text_grid" align="right">&nbsp;<nobr>0</nobr></td>
+
+		<td class="ls_text_grid" align="right">&nbsp;<nobr>0</nobr></td>
+		<td class="ls_text_grid" align="right">&nbsp;<nobr>0</nobr></td>
+		<td class="ls_text_grid" align="right">&nbsp;<nobr>0</nobr></td>
+		<td class="ls_text_grid" align="right">&nbsp;<nobr>0</nobr></td>
+		<td class="ls_text_grid" align="right">&nbsp;<nobr>0</nobr></td>
+		<td class="ls_text_grid" align="right">&nbsp;<nobr>0</nobr></td>
+
+		<td class="ls_text_grid" align="right">&nbsp;<nobr>-1</nobr></td>
+		<td class="ls_text_grid" align="right">&nbsp;<nobr>0</nobr></td>
+		<td class="ls_text_grid" align="right">&nbsp;<nobr>0</nobr></td>
+		<td class="ls_text_grid" align="right">&nbsp;<nobr>0</nobr></td>
+		<td class="ls_text_grid" align="right">&nbsp;<nobr></nobr></td>
+		<td class="ls_text_grid" align="right">&nbsp;<nobr></nobr></td>
+		<td class="ls_text_grid" align="right">&nbsp;<nobr></nobr></td>
+		<td class="ls_text_grid" align="right">&nbsp;<nobr></nobr></td>
+		<td class="ls_text_grid" align="right">&nbsp;<nobr></nobr></td>
+		<td class="ls_text_grid" align="right">&nbsp;<nobr></nobr></td>
+
+		<td class="ls_text_grid_div">&nbsp;</td>
+	</tr>
+<!-- endofWCTR_Tag -->
+	<tr>
+		<td class="ls_text_grid" align="right">14/12/2024</td>
+		<td class="ls_text_grid" align="right">08:30</td>
+		<td class="ls_text_grid" align="right">&nbsp;<nobr>0</nobr></td>
+		<td class="ls_text_grid" align="right">&nbsp;<nobr>0</nobr></td>
+		<td class="ls_text_grid" align="right">&nbsp;<nobr>0</nobr></td>
+		<td class="ls_text_grid" align="right">&nbsp;<nobr>0</nobr></td>
+
+		<td class="ls_text_grid" align="right">&nbsp;<nobr>0</nobr></td>
+		<td class="ls_text_grid" align="right">&nbsp;<nobr>0</nobr></td>
+		<td class="ls_text_grid" align="right">&nbsp;<nobr>0</nobr></td>
+		<td class="ls_text_grid" align="right">&nbsp;<nobr>0</nobr></td>
+		<td class="ls_text_grid" align="right">&nbsp;<nobr>0</nobr></td>
+		<td class="ls_text_grid" align="right">&nbsp;<nobr>0</nobr></td>
+
+		<td class="ls_text_grid" align="right">&nbsp;<nobr>-1</nobr></td>
+		<td class="ls_text_grid" align="right">&nbsp;<nobr>0</nobr></td>
+		<td class="ls_text_grid" align="right">&nbsp;<nobr>0</nobr></td>
+		<td class="ls_text_grid" align="right">&nbsp;<nobr>0</nobr></td>
+		<td class="ls_text_grid" align="right">&nbsp;<nobr></nobr></td>
+		<td class="ls_text_grid" align="right">&nbsp;<nobr></nobr></td>
+		<td class="ls_text_grid" align="right">&nbsp;<nobr></nobr></td>
+		<td class="ls_text_grid" align="right">&nbsp;<nobr></nobr></td>
+		<td class="ls_text_grid" align="right">&nbsp;<nobr></nobr></td>
+		<td class="ls_text_grid" align="right">&nbsp;<nobr></nobr></td>
+
+		<td class="ls_text_grid_div">&nbsp;</td>
+	</tr>
+<!-- endofWCTR_Tag -->
+	<tr>
+		<td class="ls_text_grid" align="right">14/12/2024</td>
+		<td class="ls_text_grid" align="right">09:00</td>
+		<td class="ls_text_grid" align="right">&nbsp;<nobr>0</nobr></td>
+		<td class="ls_text_grid" align="right">&nbsp;<nobr>0</nobr></td>
+		<td class="ls_text_grid" align="right">&nbsp;<nobr>0</nobr></td>
+		<td class="ls_text_grid" align="right">&nbsp;<nobr>0</nobr></td>
+
+		<td class="ls_text_grid" align="right">&nbsp;<nobr>0</nobr></td>
+		<td class="ls_text_grid" align="right">&nbsp;<nobr>0</nobr></td>
+		<td class="ls_text_grid" align="right">&nbsp;<nobr>0</nobr></td>
+		<td class="ls_text_grid" align="right">&nbsp;<nobr>0</nobr></td>
+		<td class="ls_text_grid" align="right">&nbsp;<nobr>0</nobr></td>
+		<td class="ls_text_grid" align="right">&nbsp;<nobr>0</nobr></td>
+
+		<td class="ls_text_grid" align="right">&nbsp;<nobr>-1</nobr></td>
+		<td class="ls_text_grid" align="right">&nbsp;<nobr>0</nobr></td>
+		<td class="ls_text_grid" align="right">&nbsp;<nobr>0</nobr></td>
+		<td class="ls_text_grid" align="right">&nbsp;<nobr>0</nobr></td>
+		<td class="ls_text_grid" align="right">&nbsp;<nobr></nobr></td>
+		<td class="ls_text_grid" align="right">&nbsp;<nobr></nobr></td>
+		<td class="ls_text_grid" align="right">&nbsp;<nobr></nobr></td>
+		<td class="ls_text_grid" align="right">&nbsp;<nobr></nobr></td>
+		<td class="ls_text_grid" align="right">&nbsp;<nobr></nobr></td>
+		<td class="ls_text_grid" align="right">&nbsp;<nobr></nobr></td>
+
+		<td class="ls_text_grid_div">&nbsp;</td>
+	</tr>
+<!-- endofWCTR_Tag -->
+	<tr>
+		<td class="ls_text_grid" align="right">14/12/2024</td>
+		<td class="ls_text_grid" align="right">09:30</td>
+		<td class="ls_text_grid" align="right">&nbsp;<nobr>0</nobr></td>
+		<td class="ls_text_grid" align="right">&nbsp;<nobr>0</nobr></td>
+		<td class="ls_text_grid" align="right">&nbsp;<nobr>0</nobr></td>
+		<td class="ls_text_grid" align="right">&nbsp;<nobr>0</nobr></td>
+
+		<td class="ls_text_grid" align="right">&nbsp;<nobr>0</nobr></td>
+		<td class="ls_text_grid" align="right">&nbsp;<nobr>0</nobr></td>
+		<td class="ls_text_grid" align="right">&nbsp;<nobr>0</nobr></td>
+		<td class="ls_text_grid" align="right">&nbsp;<nobr>0</nobr></td>
+		<td class="ls_text_grid" align="right">&nbsp;<nobr>0</nobr></td>
+		<td class="ls_text_grid" align="right">&nbsp;<nobr>0</nobr></td>
+
+		<td class="ls_text_grid" align="right">&nbsp;<nobr>-1</nobr></td>
+		<td class="ls_text_grid" align="right">&nbsp;<nobr>0</nobr></td>
+		<td class="ls_text_grid" align="right">&nbsp;<nobr>0</nobr></td>
+		<td class="ls_text_grid" align="right">&nbsp;<nobr>0</nobr></td>
+		<td class="ls_text_grid" align="right">&nbsp;<nobr></nobr></td>
+		<td class="ls_text_grid" align="right">&nbsp;<nobr></nobr></td>
+		<td class="ls_text_grid" align="right">&nbsp;<nobr></nobr></td>
+		<td class="ls_text_grid" align="right">&nbsp;<nobr></nobr></td>
+		<td class="ls_text_grid" align="right">&nbsp;<nobr></nobr></td>
+		<td class="ls_text_grid" align="right">&nbsp;<nobr></nobr></td>
+
+		<td class="ls_text_grid_div">&nbsp;</td>
+	</tr>
+<!-- endofWCTR_Tag -->
+	<tr>
+		<td class="ls_text_grid" align="right">14/12/2024</td>
+		<td class="ls_text_grid" align="right">10:00</td>
+		<td class="ls_text_grid" align="right">&nbsp;<nobr>0</nobr></td>
+		<td class="ls_text_grid" align="right">&nbsp;<nobr>0</nobr></td>
+		<td class="ls_text_grid" align="right">&nbsp;<nobr>0</nobr></td>
+		<td class="ls_text_grid" align="right">&nbsp;<nobr>0</nobr></td>
+
+		<td class="ls_text_grid" align="right">&nbsp;<nobr>0</nobr></td>
+		<td class="ls_text_grid" align="right">&nbsp;<nobr>0</nobr></td>
+		<td class="ls_text_grid" align="right">&nbsp;<nobr>0</nobr></td>
+		<td class="ls_text_grid" align="right">&nbsp;<nobr>0</nobr></td>
+		<td class="ls_text_grid" align="right">&nbsp;<nobr>0</nobr></td>
+		<td class="ls_text_grid" align="right">&nbsp;<nobr>0</nobr></td>
+
+		<td class="ls_text_grid" align="right">&nbsp;<nobr>-1</nobr></td>
+		<td class="ls_text_grid" align="right">&nbsp;<nobr>0</nobr></td>
+		<td class="ls_text_grid" align="right">&nbsp;<nobr>0</nobr></td>
+		<td class="ls_text_grid" align="right">&nbsp;<nobr>0</nobr></td>
+		<td class="ls_text_grid" align="right">&nbsp;<nobr></nobr></td>
+		<td class="ls_text_grid" align="right">&nbsp;<nobr></nobr></td>
+		<td class="ls_text_grid" align="right">&nbsp;<nobr></nobr></td>
+		<td class="ls_text_grid" align="right">&nbsp;<nobr></nobr></td>
+		<td class="ls_text_grid" align="right">&nbsp;<nobr></nobr></td>
+		<td class="ls_text_grid" align="right">&nbsp;<nobr></nobr></td>
+
+		<td class="ls_text_grid_div">&nbsp;</td>
+	</tr>
+<!-- endofWCTR_Tag -->
+	<tr>
+		<td class="ls_text_grid" align="right">14/12/2024</td>
+		<td class="ls_text_grid" align="right">10:30</td>
+		<td class="ls_text_grid" align="right">&nbsp;<nobr>0</nobr></td>
+		<td class="ls_text_grid" align="right">&nbsp;<nobr>0</nobr></td>
+		<td class="ls_text_grid" align="right">&nbsp;<nobr>0</nobr></td>
+		<td class="ls_text_grid" align="right">&nbsp;<nobr>0</nobr></td>
+
+		<td class="ls_text_grid" align="right">&nbsp;<nobr>0</nobr></td>
+		<td class="ls_text_grid" align="right">&nbsp;<nobr>0</nobr></td>
+		<td class="ls_text_grid" align="right">&nbsp;<nobr>0</nobr></td>
+		<td class="ls_text_grid" align="right">&nbsp;<nobr>0</nobr></td>
+		<td class="ls_text_grid" align="right">&nbsp;<nobr>0</nobr></td>
+		<td class="ls_text_grid" align="right">&nbsp;<nobr>0</nobr></td>
+
+		<td class="ls_text_grid" align="right">&nbsp;<nobr>-1</nobr></td>
+		<td class="ls_text_grid" align="right">&nbsp;<nobr>0</nobr></td>
+		<td class="ls_text_grid" align="right">&nbsp;<nobr>0</nobr></td>
+		<td class="ls_text_grid" align="right">&nbsp;<nobr>0</nobr></td>
+		<td class="ls_text_grid" align="right">&nbsp;<nobr></nobr></td>
+		<td class="ls_text_grid" align="right">&nbsp;<nobr></nobr></td>
+		<td class="ls_text_grid" align="right">&nbsp;<nobr></nobr></td>
+		<td class="ls_text_grid" align="right">&nbsp;<nobr></nobr></td>
+		<td class="ls_text_grid" align="right">&nbsp;<nobr></nobr></td>
+		<td class="ls_text_grid" align="right">&nbsp;<nobr></nobr></td>
+
+		<td class="ls_text_grid_div">&nbsp;</td>
+	</tr>
+<!-- endofWCTR_Tag -->
+	<tr>
+		<td class="ls_text_grid" align="right">14/12/2024</td>
+		<td class="ls_text_grid" align="right">11:00</td>
+		<td class="ls_text_grid" align="right">&nbsp;<nobr>0</nobr></td>
+		<td class="ls_text_grid" align="right">&nbsp;<nobr>0</nobr></td>
+		<td class="ls_text_grid" align="right">&nbsp;<nobr>0</nobr></td>
+		<td class="ls_text_grid" align="right">&nbsp;<nobr>0</nobr></td>
+
+		<td class="ls_text_grid" align="right">&nbsp;<nobr>0</nobr></td>
+		<td class="ls_text_grid" align="right">&nbsp;<nobr>0</nobr></td>
+		<td class="ls_text_grid" align="right">&nbsp;<nobr>0</nobr></td>
+		<td class="ls_text_grid" align="right">&nbsp;<nobr>0</nobr></td>
+		<td class="ls_text_grid" align="right">&nbsp;<nobr>0</nobr></td>
+		<td class="ls_text_grid" align="right">&nbsp;<nobr>0</nobr></td>
+
+		<td class="ls_text_grid" align="right">&nbsp;<nobr>-1</nobr></td>
+		<td class="ls_text_grid" align="right">&nbsp;<nobr>0</nobr></td>
+		<td class="ls_text_grid" align="right">&nbsp;<nobr>0</nobr></td>
+		<td class="ls_text_grid" align="right">&nbsp;<nobr>0</nobr></td>
+		<td class="ls_text_grid" align="right">&nbsp;<nobr></nobr></td>
+		<td class="ls_text_grid" align="right">&nbsp;<nobr></nobr></td>
+		<td class="ls_text_grid" align="right">&nbsp;<nobr></nobr></td>
+		<td class="ls_text_grid" align="right">&nbsp;<nobr></nobr></td>
+		<td class="ls_text_grid" align="right">&nbsp;<nobr></nobr></td>
+		<td class="ls_text_grid" align="right">&nbsp;<nobr></nobr></td>
+
+		<td class="ls_text_grid_div">&nbsp;</td>
+	</tr>
+<!-- endofWCTR_Tag -->
+	<tr>
+		<td class="ls_text_grid" align="right">14/12/2024</td>
+		<td class="ls_text_grid" align="right">11:30</td>
+		<td class="ls_text_grid" align="right">&nbsp;<nobr>0</nobr></td>
+		<td class="ls_text_grid" align="right">&nbsp;<nobr>0</nobr></td>
+		<td class="ls_text_grid" align="right">&nbsp;<nobr>0</nobr></td>
+		<td class="ls_text_grid" align="right">&nbsp;<nobr>0</nobr></td>
+
+		<td class="ls_text_grid" align="right">&nbsp;<nobr>0</nobr></td>
+		<td class="ls_text_grid" align="right">&nbsp;<nobr>0</nobr></td>
+		<td class="ls_text_grid" align="right">&nbsp;<nobr>0</nobr></td>
+		<td class="ls_text_grid" align="right">&nbsp;<nobr>0</nobr></td>
+		<td class="ls_text_grid" align="right">&nbsp;<nobr>0</nobr></td>
+		<td class="ls_text_grid" align="right">&nbsp;<nobr>0</nobr></td>
+
+		<td class="ls_text_grid" align="right">&nbsp;<nobr>-1</nobr></td>
+		<td class="ls_text_grid" align="right">&nbsp;<nobr>0</nobr></td>
+		<td class="ls_text_grid" align="right">&nbsp;<nobr>0</nobr></td>
+		<td class="ls_text_grid" align="right">&nbsp;<nobr>0</nobr></td>
+		<td class="ls_text_grid" align="right">&nbsp;<nobr></nobr></td>
+		<td class="ls_text_grid" align="right">&nbsp;<nobr></nobr></td>
+		<td class="ls_text_grid" align="right">&nbsp;<nobr></nobr></td>
+		<td class="ls_text_grid" align="right">&nbsp;<nobr></nobr></td>
+		<td class="ls_text_grid" align="right">&nbsp;<nobr></nobr></td>
+		<td class="ls_text_grid" align="right">&nbsp;<nobr></nobr></td>
+
+		<td class="ls_text_grid_div">&nbsp;</td>
+	</tr>
+<!-- endofWCTR_Tag -->
+	<tr>
+		<td class="ls_text_grid" align="right">14/12/2024</td>
+		<td class="ls_text_grid" align="right">12:00</td>
+		<td class="ls_text_grid" align="right">&nbsp;<nobr>0</nobr></td>
+		<td class="ls_text_grid" align="right">&nbsp;<nobr>0</nobr></td>
+		<td class="ls_text_grid" align="right">&nbsp;<nobr>0</nobr></td>
+		<td class="ls_text_grid" align="right">&nbsp;<nobr>0</nobr></td>
+
+		<td class="ls_text_grid" align="right">&nbsp;<nobr>0</nobr></td>
+		<td class="ls_text_grid" align="right">&nbsp;<nobr>0</nobr></td>
+		<td class="ls_text_grid" align="right">&nbsp;<nobr>0</nobr></td>
+		<td class="ls_text_grid" align="right">&nbsp;<nobr>0</nobr></td>
+		<td class="ls_text_grid" align="right">&nbsp;<nobr>0</nobr></td>
+		<td class="ls_text_grid" align="right">&nbsp;<nobr>0</nobr></td>
+
+		<td class="ls_text_grid" align="right">&nbsp;<nobr>-1</nobr></td>
+		<td class="ls_text_grid" align="right">&nbsp;<nobr>0</nobr></td>
+		<td class="ls_text_grid" align="right">&nbsp;<nobr>0</nobr></td>
+		<td class="ls_text_grid" align="right">&nbsp;<nobr>0</nobr></td>
+		<td class="ls_text_grid" align="right">&nbsp;<nobr></nobr></td>
+		<td class="ls_text_grid" align="right">&nbsp;<nobr></nobr></td>
+		<td class="ls_text_grid" align="right">&nbsp;<nobr></nobr></td>
+		<td class="ls_text_grid" align="right">&nbsp;<nobr></nobr></td>
+		<td class="ls_text_grid" align="right">&nbsp;<nobr></nobr></td>
+		<td class="ls_text_grid" align="right">&nbsp;<nobr></nobr></td>
+
+		<td class="ls_text_grid_div">&nbsp;</td>
+	</tr>
+<!-- endofWCTR_Tag -->
+	<tr>
+		<td class="ls_text_grid" align="right">14/12/2024</td>
+		<td class="ls_text_grid" align="right">12:30</td>
+		<td class="ls_text_grid" align="right">&nbsp;<nobr>0</nobr></td>
+		<td class="ls_text_grid" align="right">&nbsp;<nobr>0</nobr></td>
+		<td class="ls_text_grid" align="right">&nbsp;<nobr>0</nobr></td>
+		<td class="ls_text_grid" align="right">&nbsp;<nobr>0</nobr></td>
+
+		<td class="ls_text_grid" align="right">&nbsp;<nobr>0</nobr></td>
+		<td class="ls_text_grid" align="right">&nbsp;<nobr>0</nobr></td>
+		<td class="ls_text_grid" align="right">&nbsp;<nobr>0</nobr></td>
+		<td class="ls_text_grid" align="right">&nbsp;<nobr>0</nobr></td>
+		<td class="ls_text_grid" align="right">&nbsp;<nobr>0</nobr></td>
+		<td class="ls_text_grid" align="right">&nbsp;<nobr>0</nobr></td>
+
+		<td class="ls_text_grid" align="right">&nbsp;<nobr>-1</nobr></td>
+		<td class="ls_text_grid" align="right">&nbsp;<nobr>0</nobr></td>
+		<td class="ls_text_grid" align="right">&nbsp;<nobr>0</nobr></td>
+		<td class="ls_text_grid" align="right">&nbsp;<nobr>0</nobr></td>
+		<td class="ls_text_grid" align="right">&nbsp;<nobr></nobr></td>
+		<td class="ls_text_grid" align="right">&nbsp;<nobr></nobr></td>
+		<td class="ls_text_grid" align="right">&nbsp;<nobr></nobr></td>
+		<td class="ls_text_grid" align="right">&nbsp;<nobr></nobr></td>
+		<td class="ls_text_grid" align="right">&nbsp;<nobr></nobr></td>
+		<td class="ls_text_grid" align="right">&nbsp;<nobr></nobr></td>
+
+		<td class="ls_text_grid_div">&nbsp;</td>
+	</tr>
+<!-- endofWCTR_Tag -->
+	<tr>
+		<td class="ls_text_grid" align="right">14/12/2024</td>
+		<td class="ls_text_grid" align="right">13:00</td>
+		<td class="ls_text_grid" align="right">&nbsp;<nobr>0</nobr></td>
+		<td class="ls_text_grid" align="right">&nbsp;<nobr>0</nobr></td>
+		<td class="ls_text_grid" align="right">&nbsp;<nobr>0</nobr></td>
+		<td class="ls_text_grid" align="right">&nbsp;<nobr>0</nobr></td>
+
+		<td class="ls_text_grid" align="right">&nbsp;<nobr>0</nobr></td>
+		<td class="ls_text_grid" align="right">&nbsp;<nobr>0</nobr></td>
+		<td class="ls_text_grid" align="right">&nbsp;<nobr>0</nobr></td>
+		<td class="ls_text_grid" align="right">&nbsp;<nobr>0</nobr></td>
+		<td class="ls_text_grid" align="right">&nbsp;<nobr>0</nobr></td>
+		<td class="ls_text_grid" align="right">&nbsp;<nobr>0</nobr></td>
+
+		<td class="ls_text_grid" align="right">&nbsp;<nobr>-1</nobr></td>
+		<td class="ls_text_grid" align="right">&nbsp;<nobr>0</nobr></td>
+		<td class="ls_text_grid" align="right">&nbsp;<nobr>0</nobr></td>
+		<td class="ls_text_grid" align="right">&nbsp;<nobr>0</nobr></td>
+		<td class="ls_text_grid" align="right">&nbsp;<nobr></nobr></td>
+		<td class="ls_text_grid" align="right">&nbsp;<nobr></nobr></td>
+		<td class="ls_text_grid" align="right">&nbsp;<nobr></nobr></td>
+		<td class="ls_text_grid" align="right">&nbsp;<nobr></nobr></td>
+		<td class="ls_text_grid" align="right">&nbsp;<nobr></nobr></td>
+		<td class="ls_text_grid" align="right">&nbsp;<nobr></nobr></td>
+
+		<td class="ls_text_grid_div">&nbsp;</td>
+	</tr>
+<!-- endofWCTR_Tag -->
+	<tr>
+		<td class="ls_text_grid" align="right">14/12/2024</td>
+		<td class="ls_text_grid" align="right">13:30</td>
+		<td class="ls_text_grid" align="right">&nbsp;<nobr>0</nobr></td>
+		<td class="ls_text_grid" align="right">&nbsp;<nobr>0</nobr></td>
+		<td class="ls_text_grid" align="right">&nbsp;<nobr>0</nobr></td>
+		<td class="ls_text_grid" align="right">&nbsp;<nobr>0</nobr></td>
+
+		<td class="ls_text_grid" align="right">&nbsp;<nobr>0</nobr></td>
+		<td class="ls_text_grid" align="right">&nbsp;<nobr>0</nobr></td>
+		<td class="ls_text_grid" align="right">&nbsp;<nobr>0</nobr></td>
+		<td class="ls_text_grid" align="right">&nbsp;<nobr>0</nobr></td>
+		<td class="ls_text_grid" align="right">&nbsp;<nobr>0</nobr></td>
+		<td class="ls_text_grid" align="right">&nbsp;<nobr>0</nobr></td>
+
+		<td class="ls_text_grid" align="right">&nbsp;<nobr>-1</nobr></td>
+		<td class="ls_text_grid" align="right">&nbsp;<nobr>0</nobr></td>
+		<td class="ls_text_grid" align="right">&nbsp;<nobr>0</nobr></td>
+		<td class="ls_text_grid" align="right">&nbsp;<nobr>0</nobr></td>
+		<td class="ls_text_grid" align="right">&nbsp;<nobr></nobr></td>
+		<td class="ls_text_grid" align="right">&nbsp;<nobr></nobr></td>
+		<td class="ls_text_grid" align="right">&nbsp;<nobr></nobr></td>
+		<td class="ls_text_grid" align="right">&nbsp;<nobr></nobr></td>
+		<td class="ls_text_grid" align="right">&nbsp;<nobr></nobr></td>
+		<td class="ls_text_grid" align="right">&nbsp;<nobr></nobr></td>
+
+		<td class="ls_text_grid_div">&nbsp;</td>
+	</tr>
+<!-- endofWCTR_Tag -->
+	<tr>
+		<td class="ls_text_grid" align="right">14/12/2024</td>
+		<td class="ls_text_grid" align="right">14:00</td>
+		<td class="ls_text_grid" align="right">&nbsp;<nobr>0</nobr></td>
+		<td class="ls_text_grid" align="right">&nbsp;<nobr>0</nobr></td>
+		<td class="ls_text_grid" align="right">&nbsp;<nobr>0</nobr></td>
+		<td class="ls_text_grid" align="right">&nbsp;<nobr>0</nobr></td>
+
+		<td class="ls_text_grid" align="right">&nbsp;<nobr>0</nobr></td>
+		<td class="ls_text_grid" align="right">&nbsp;<nobr>0</nobr></td>
+		<td class="ls_text_grid" align="right">&nbsp;<nobr>0</nobr></td>
+		<td class="ls_text_grid" align="right">&nbsp;<nobr>0</nobr></td>
+		<td class="ls_text_grid" align="right">&nbsp;<nobr>0</nobr></td>
+		<td class="ls_text_grid" align="right">&nbsp;<nobr>0</nobr></td>
+
+		<td class="ls_text_grid" align="right">&nbsp;<nobr>-1</nobr></td>
+		<td class="ls_text_grid" align="right">&nbsp;<nobr>0</nobr></td>
+		<td class="ls_text_grid" align="right">&nbsp;<nobr>0</nobr></td>
+		<td class="ls_text_grid" align="right">&nbsp;<nobr>0</nobr></td>
+		<td class="ls_text_grid" align="right">&nbsp;<nobr></nobr></td>
+		<td class="ls_text_grid" align="right">&nbsp;<nobr></nobr></td>
+		<td class="ls_text_grid" align="right">&nbsp;<nobr></nobr></td>
+		<td class="ls_text_grid" align="right">&nbsp;<nobr></nobr></td>
+		<td class="ls_text_grid" align="right">&nbsp;<nobr></nobr></td>
+		<td class="ls_text_grid" align="right">&nbsp;<nobr></nobr></td>
+
+		<td class="ls_text_grid_div">&nbsp;</td>
+	</tr>
+<!-- endofWCTR_Tag -->
+	<tr>
+		<td class="ls_text_grid" align="right">14/12/2024</td>
+		<td class="ls_text_grid" align="right">14:30</td>
+		<td class="ls_text_grid" align="right">&nbsp;<nobr>0</nobr></td>
+		<td class="ls_text_grid" align="right">&nbsp;<nobr>0</nobr></td>
+		<td class="ls_text_grid" align="right">&nbsp;<nobr>0</nobr></td>
+		<td class="ls_text_grid" align="right">&nbsp;<nobr>0</nobr></td>
+
+		<td class="ls_text_grid" align="right">&nbsp;<nobr>0</nobr></td>
+		<td class="ls_text_grid" align="right">&nbsp;<nobr>0</nobr></td>
+		<td class="ls_text_grid" align="right">&nbsp;<nobr>0</nobr></td>
+		<td class="ls_text_grid" align="right">&nbsp;<nobr>0</nobr></td>
+		<td class="ls_text_grid" align="right">&nbsp;<nobr>0</nobr></td>
+		<td class="ls_text_grid" align="right">&nbsp;<nobr>0</nobr></td>
+
+		<td class="ls_text_grid" align="right">&nbsp;<nobr>-1</nobr></td>
+		<td class="ls_text_grid" align="right">&nbsp;<nobr>0</nobr></td>
+		<td class="ls_text_grid" align="right">&nbsp;<nobr>0</nobr></td>
+		<td class="ls_text_grid" align="right">&nbsp;<nobr>0</nobr></td>
+		<td class="ls_text_grid" align="right">&nbsp;<nobr></nobr></td>
+		<td class="ls_text_grid" align="right">&nbsp;<nobr></nobr></td>
+		<td class="ls_text_grid" align="right">&nbsp;<nobr></nobr></td>
+		<td class="ls_text_grid" align="right">&nbsp;<nobr></nobr></td>
+		<td class="ls_text_grid" align="right">&nbsp;<nobr></nobr></td>
+		<td class="ls_text_grid" align="right">&nbsp;<nobr></nobr></td>
+
+		<td class="ls_text_grid_div">&nbsp;</td>
+	</tr>
+<!-- endofWCTR_Tag -->
+	<tr>
+		<td class="ls_text_grid" align="right">14/12/2024</td>
+		<td class="ls_text_grid" align="right">15:00</td>
+		<td class="ls_text_grid" align="right">&nbsp;<nobr>0</nobr></td>
+		<td class="ls_text_grid" align="right">&nbsp;<nobr>0</nobr></td>
+		<td class="ls_text_grid" align="right">&nbsp;<nobr>0</nobr></td>
+		<td class="ls_text_grid" align="right">&nbsp;<nobr>0</nobr></td>
+
+		<td class="ls_text_grid" align="right">&nbsp;<nobr>0</nobr></td>
+		<td class="ls_text_grid" align="right">&nbsp;<nobr>0</nobr></td>
+		<td class="ls_text_grid" align="right">&nbsp;<nobr>0</nobr></td>
+		<td class="ls_text_grid" align="right">&nbsp;<nobr>0</nobr></td>
+		<td class="ls_text_grid" align="right">&nbsp;<nobr>0</nobr></td>
+		<td class="ls_text_grid" align="right">&nbsp;<nobr>0</nobr></td>
+
+		<td class="ls_text_grid" align="right">&nbsp;<nobr>-1</nobr></td>
+		<td class="ls_text_grid" align="right">&nbsp;<nobr>0</nobr></td>
+		<td class="ls_text_grid" align="right">&nbsp;<nobr>0</nobr></td>
+		<td class="ls_text_grid" align="right">&nbsp;<nobr>0</nobr></td>
+		<td class="ls_text_grid" align="right">&nbsp;<nobr></nobr></td>
+		<td class="ls_text_grid" align="right">&nbsp;<nobr></nobr></td>
+		<td class="ls_text_grid" align="right">&nbsp;<nobr></nobr></td>
+		<td class="ls_text_grid" align="right">&nbsp;<nobr></nobr></td>
+		<td class="ls_text_grid" align="right">&nbsp;<nobr></nobr></td>
+		<td class="ls_text_grid" align="right">&nbsp;<nobr></nobr></td>
+
+		<td class="ls_text_grid_div">&nbsp;</td>
+	</tr>
+<!-- endofWCTR_Tag -->
+	<tr>
+		<td class="ls_text_grid" align="right">14/12/2024</td>
+		<td class="ls_text_grid" align="right">15:30</td>
+		<td class="ls_text_grid" align="right">&nbsp;<nobr>0</nobr></td>
+		<td class="ls_text_grid" align="right">&nbsp;<nobr>0</nobr></td>
+		<td class="ls_text_grid" align="right">&nbsp;<nobr>0</nobr></td>
+		<td class="ls_text_grid" align="right">&nbsp;<nobr>0</nobr></td>
+
+		<td class="ls_text_grid" align="right">&nbsp;<nobr>0</nobr></td>
+		<td class="ls_text_grid" align="right">&nbsp;<nobr>0</nobr></td>
+		<td class="ls_text_grid" align="right">&nbsp;<nobr>0</nobr></td>
+		<td class="ls_text_grid" align="right">&nbsp;<nobr>0</nobr></td>
+		<td class="ls_text_grid" align="right">&nbsp;<nobr>0</nobr></td>
+		<td class="ls_text_grid" align="right">&nbsp;<nobr>0</nobr></td>
+
+		<td class="ls_text_grid" align="right">&nbsp;<nobr>-1</nobr></td>
+		<td class="ls_text_grid" align="right">&nbsp;<nobr>0</nobr></td>
+		<td class="ls_text_grid" align="right">&nbsp;<nobr>0</nobr></td>
+		<td class="ls_text_grid" align="right">&nbsp;<nobr>0</nobr></td>
+		<td class="ls_text_grid" align="right">&nbsp;<nobr></nobr></td>
+		<td class="ls_text_grid" align="right">&nbsp;<nobr></nobr></td>
+		<td class="ls_text_grid" align="right">&nbsp;<nobr></nobr></td>
+		<td class="ls_text_grid" align="right">&nbsp;<nobr></nobr></td>
+		<td class="ls_text_grid" align="right">&nbsp;<nobr></nobr></td>
+		<td class="ls_text_grid" align="right">&nbsp;<nobr></nobr></td>
+
+		<td class="ls_text_grid_div">&nbsp;</td>
+	</tr>
+<!-- endofWCTR_Tag -->
+	<tr>
+		<td class="ls_text_grid" align="right">14/12/2024</td>
+		<td class="ls_text_grid" align="right">16:00</td>
+		<td class="ls_text_grid" align="right">&nbsp;<nobr>0</nobr></td>
+		<td class="ls_text_grid" align="right">&nbsp;<nobr>0</nobr></td>
+		<td class="ls_text_grid" align="right">&nbsp;<nobr>0</nobr></td>
+		<td class="ls_text_grid" align="right">&nbsp;<nobr>0</nobr></td>
+
+		<td class="ls_text_grid" align="right">&nbsp;<nobr>0</nobr></td>
+		<td class="ls_text_grid" align="right">&nbsp;<nobr>0</nobr></td>
+		<td class="ls_text_grid" align="right">&nbsp;<nobr>0</nobr></td>
+		<td class="ls_text_grid" align="right">&nbsp;<nobr>0</nobr></td>
+		<td class="ls_text_grid" align="right">&nbsp;<nobr>0</nobr></td>
+		<td class="ls_text_grid" align="right">&nbsp;<nobr>0</nobr></td>
+
+		<td class="ls_text_grid" align="right">&nbsp;<nobr>-1</nobr></td>
+		<td class="ls_text_grid" align="right">&nbsp;<nobr>0</nobr></td>
+		<td class="ls_text_grid" align="right">&nbsp;<nobr>0</nobr></td>
+		<td class="ls_text_grid" align="right">&nbsp;<nobr>0</nobr></td>
+		<td class="ls_text_grid" align="right">&nbsp;<nobr></nobr></td>
+		<td class="ls_text_grid" align="right">&nbsp;<nobr></nobr></td>
+		<td class="ls_text_grid" align="right">&nbsp;<nobr></nobr></td>
+		<td class="ls_text_grid" align="right">&nbsp;<nobr></nobr></td>
+		<td class="ls_text_grid" align="right">&nbsp;<nobr></nobr></td>
+		<td class="ls_text_grid" align="right">&nbsp;<nobr></nobr></td>
+
+		<td class="ls_text_grid_div">&nbsp;</td>
+	</tr>
+<!-- endofWCTR_Tag -->
+	<tr>
+		<td class="ls_text_grid" align="right">14/12/2024</td>
+		<td class="ls_text_grid" align="right">16:30</td>
+		<td class="ls_text_grid" align="right">&nbsp;<nobr>0</nobr></td>
+		<td class="ls_text_grid" align="right">&nbsp;<nobr>0</nobr></td>
+		<td class="ls_text_grid" align="right">&nbsp;<nobr>0</nobr></td>
+		<td class="ls_text_grid" align="right">&nbsp;<nobr>0</nobr></td>
+
+		<td class="ls_text_grid" align="right">&nbsp;<nobr>0</nobr></td>
+		<td class="ls_text_grid" align="right">&nbsp;<nobr>0</nobr></td>
+		<td class="ls_text_grid" align="right">&nbsp;<nobr>0</nobr></td>
+		<td class="ls_text_grid" align="right">&nbsp;<nobr>0</nobr></td>
+		<td class="ls_text_grid" align="right">&nbsp;<nobr>0</nobr></td>
+		<td class="ls_text_grid" align="right">&nbsp;<nobr>0</nobr></td>
+
+		<td class="ls_text_grid" align="right">&nbsp;<nobr>-1</nobr></td>
+		<td class="ls_text_grid" align="right">&nbsp;<nobr>0</nobr></td>
+		<td class="ls_text_grid" align="right">&nbsp;<nobr>0</nobr></td>
+		<td class="ls_text_grid" align="right">&nbsp;<nobr>0</nobr></td>
+		<td class="ls_text_grid" align="right">&nbsp;<nobr></nobr></td>
+		<td class="ls_text_grid" align="right">&nbsp;<nobr></nobr></td>
+		<td class="ls_text_grid" align="right">&nbsp;<nobr></nobr></td>
+		<td class="ls_text_grid" align="right">&nbsp;<nobr></nobr></td>
+		<td class="ls_text_grid" align="right">&nbsp;<nobr></nobr></td>
+		<td class="ls_text_grid" align="right">&nbsp;<nobr></nobr></td>
+
+		<td class="ls_text_grid_div">&nbsp;</td>
+	</tr>
+<!-- endofWCTR_Tag -->
+	<tr>
+		<td class="ls_text_grid" align="right">14/12/2024</td>
+		<td class="ls_text_grid" align="right">17:00</td>
+		<td class="ls_text_grid" align="right">&nbsp;<nobr>0</nobr></td>
+		<td class="ls_text_grid" align="right">&nbsp;<nobr>0</nobr></td>
+		<td class="ls_text_grid" align="right">&nbsp;<nobr>0</nobr></td>
+		<td class="ls_text_grid" align="right">&nbsp;<nobr>0</nobr></td>
+
+		<td class="ls_text_grid" align="right">&nbsp;<nobr>0</nobr></td>
+		<td class="ls_text_grid" align="right">&nbsp;<nobr>0</nobr></td>
+		<td class="ls_text_grid" align="right">&nbsp;<nobr>0</nobr></td>
+		<td class="ls_text_grid" align="right">&nbsp;<nobr>0</nobr></td>
+		<td class="ls_text_grid" align="right">&nbsp;<nobr>0</nobr></td>
+		<td class="ls_text_grid" align="right">&nbsp;<nobr>0</nobr></td>
+
+		<td class="ls_text_grid" align="right">&nbsp;<nobr>-1</nobr></td>
+		<td class="ls_text_grid" align="right">&nbsp;<nobr>0</nobr></td>
+		<td class="ls_text_grid" align="right">&nbsp;<nobr>0</nobr></td>
+		<td class="ls_text_grid" align="right">&nbsp;<nobr>0</nobr></td>
+		<td class="ls_text_grid" align="right">&nbsp;<nobr></nobr></td>
+		<td class="ls_text_grid" align="right">&nbsp;<nobr></nobr></td>
+		<td class="ls_text_grid" align="right">&nbsp;<nobr></nobr></td>
+		<td class="ls_text_grid" align="right">&nbsp;<nobr></nobr></td>
+		<td class="ls_text_grid" align="right">&nbsp;<nobr></nobr></td>
+		<td class="ls_text_grid" align="right">&nbsp;<nobr></nobr></td>
+
+		<td class="ls_text_grid_div">&nbsp;</td>
+	</tr>
+<!-- endofWCTR_Tag -->
+	<tr>
+		<td class="ls_text_grid" align="right">14/12/2024</td>
+		<td class="ls_text_grid" align="right">17:30</td>
+		<td class="ls_text_grid" align="right">&nbsp;<nobr>0</nobr></td>
+		<td class="ls_text_grid" align="right">&nbsp;<nobr>0</nobr></td>
+		<td class="ls_text_grid" align="right">&nbsp;<nobr>0</nobr></td>
+		<td class="ls_text_grid" align="right">&nbsp;<nobr>0</nobr></td>
+
+		<td class="ls_text_grid" align="right">&nbsp;<nobr>0</nobr></td>
+		<td class="ls_text_grid" align="right">&nbsp;<nobr>0</nobr></td>
+		<td class="ls_text_grid" align="right">&nbsp;<nobr>0</nobr></td>
+		<td class="ls_text_grid" align="right">&nbsp;<nobr>0</nobr></td>
+		<td class="ls_text_grid" align="right">&nbsp;<nobr>0</nobr></td>
+		<td class="ls_text_grid" align="right">&nbsp;<nobr>0</nobr></td>
+
+		<td class="ls_text_grid" align="right">&nbsp;<nobr>-1</nobr></td>
+		<td class="ls_text_grid" align="right">&nbsp;<nobr>0</nobr></td>
+		<td class="ls_text_grid" align="right">&nbsp;<nobr>0</nobr></td>
+		<td class="ls_text_grid" align="right">&nbsp;<nobr>0</nobr></td>
+		<td class="ls_text_grid" align="right">&nbsp;<nobr></nobr></td>
+		<td class="ls_text_grid" align="right">&nbsp;<nobr></nobr></td>
+		<td class="ls_text_grid" align="right">&nbsp;<nobr></nobr></td>
+		<td class="ls_text_grid" align="right">&nbsp;<nobr></nobr></td>
+		<td class="ls_text_grid" align="right">&nbsp;<nobr></nobr></td>
+		<td class="ls_text_grid" align="right">&nbsp;<nobr></nobr></td>
+
+		<td class="ls_text_grid_div">&nbsp;</td>
+	</tr>
+<!-- endofWCTR_Tag -->
+	<tr>
+		<td class="ls_text_grid" align="right">14/12/2024</td>
+		<td class="ls_text_grid" align="right">18:00</td>
+		<td class="ls_text_grid" align="right">&nbsp;<nobr>0</nobr></td>
+		<td class="ls_text_grid" align="right">&nbsp;<nobr>0</nobr></td>
+		<td class="ls_text_grid" align="right">&nbsp;<nobr>0</nobr></td>
+		<td class="ls_text_grid" align="right">&nbsp;<nobr>0</nobr></td>
+
+		<td class="ls_text_grid" align="right">&nbsp;<nobr>0</nobr></td>
+		<td class="ls_text_grid" align="right">&nbsp;<nobr>0</nobr></td>
+		<td class="ls_text_grid" align="right">&nbsp;<nobr>0</nobr></td>
+		<td class="ls_text_grid" align="right">&nbsp;<nobr>0</nobr></td>
+		<td class="ls_text_grid" align="right">&nbsp;<nobr>0</nobr></td>
+		<td class="ls_text_grid" align="right">&nbsp;<nobr>0</nobr></td>
+
+		<td class="ls_text_grid" align="right">&nbsp;<nobr>-1</nobr></td>
+		<td class="ls_text_grid" align="right">&nbsp;<nobr>0</nobr></td>
+		<td class="ls_text_grid" align="right">&nbsp;<nobr>0</nobr></td>
+		<td class="ls_text_grid" align="right">&nbsp;<nobr>0</nobr></td>
+		<td class="ls_text_grid" align="right">&nbsp;<nobr></nobr></td>
+		<td class="ls_text_grid" align="right">&nbsp;<nobr></nobr></td>
+		<td class="ls_text_grid" align="right">&nbsp;<nobr></nobr></td>
+		<td class="ls_text_grid" align="right">&nbsp;<nobr></nobr></td>
+		<td class="ls_text_grid" align="right">&nbsp;<nobr></nobr></td>
+		<td class="ls_text_grid" align="right">&nbsp;<nobr></nobr></td>
+
+		<td class="ls_text_grid_div">&nbsp;</td>
+	</tr>
+<!-- endofWCTR_Tag -->
+	<tr>
+		<td class="ls_text_grid" align="right">14/12/2024</td>
+		<td class="ls_text_grid" align="right">18:30</td>
+		<td class="ls_text_grid" align="right">&nbsp;<nobr>0</nobr></td>
+		<td class="ls_text_grid" align="right">&nbsp;<nobr>0</nobr></td>
+		<td class="ls_text_grid" align="right">&nbsp;<nobr>0</nobr></td>
+		<td class="ls_text_grid" align="right">&nbsp;<nobr>0</nobr></td>
+
+		<td class="ls_text_grid" align="right">&nbsp;<nobr>0</nobr></td>
+		<td class="ls_text_grid" align="right">&nbsp;<nobr>0</nobr></td>
+		<td class="ls_text_grid" align="right">&nbsp;<nobr>0</nobr></td>
+		<td class="ls_text_grid" align="right">&nbsp;<nobr>0</nobr></td>
+		<td class="ls_text_grid" align="right">&nbsp;<nobr>0</nobr></td>
+		<td class="ls_text_grid" align="right">&nbsp;<nobr>0</nobr></td>
+
+		<td class="ls_text_grid" align="right">&nbsp;<nobr>-1</nobr></td>
+		<td class="ls_text_grid" align="right">&nbsp;<nobr>0</nobr></td>
+		<td class="ls_text_grid" align="right">&nbsp;<nobr>0</nobr></td>
+		<td class="ls_text_grid" align="right">&nbsp;<nobr>0</nobr></td>
+		<td class="ls_text_grid" align="right">&nbsp;<nobr></nobr></td>
+		<td class="ls_text_grid" align="right">&nbsp;<nobr></nobr></td>
+		<td class="ls_text_grid" align="right">&nbsp;<nobr></nobr></td>
+		<td class="ls_text_grid" align="right">&nbsp;<nobr></nobr></td>
+		<td class="ls_text_grid" align="right">&nbsp;<nobr></nobr></td>
+		<td class="ls_text_grid" align="right">&nbsp;<nobr></nobr></td>
+
+		<td class="ls_text_grid_div">&nbsp;</td>
+	</tr>
+<!-- endofWCTR_Tag -->
+	<tr>
+		<td class="ls_text_grid" align="right">14/12/2024</td>
+		<td class="ls_text_grid" align="right">19:00</td>
+		<td class="ls_text_grid" align="right">&nbsp;<nobr>0</nobr></td>
+		<td class="ls_text_grid" align="right">&nbsp;<nobr>0</nobr></td>
+		<td class="ls_text_grid" align="right">&nbsp;<nobr>0</nobr></td>
+		<td class="ls_text_grid" align="right">&nbsp;<nobr>0</nobr></td>
+
+		<td class="ls_text_grid" align="right">&nbsp;<nobr>0</nobr></td>
+		<td class="ls_text_grid" align="right">&nbsp;<nobr>0</nobr></td>
+		<td class="ls_text_grid" align="right">&nbsp;<nobr>0</nobr></td>
+		<td class="ls_text_grid" align="right">&nbsp;<nobr>0</nobr></td>
+		<td class="ls_text_grid" align="right">&nbsp;<nobr>0</nobr></td>
+		<td class="ls_text_grid" align="right">&nbsp;<nobr>0</nobr></td>
+
+		<td class="ls_text_grid" align="right">&nbsp;<nobr>-1</nobr></td>
+		<td class="ls_text_grid" align="right">&nbsp;<nobr>0</nobr></td>
+		<td class="ls_text_grid" align="right">&nbsp;<nobr>0</nobr></td>
+		<td class="ls_text_grid" align="right">&nbsp;<nobr>0</nobr></td>
+		<td class="ls_text_grid" align="right">&nbsp;<nobr></nobr></td>
+		<td class="ls_text_grid" align="right">&nbsp;<nobr></nobr></td>
+		<td class="ls_text_grid" align="right">&nbsp;<nobr></nobr></td>
+		<td class="ls_text_grid" align="right">&nbsp;<nobr></nobr></td>
+		<td class="ls_text_grid" align="right">&nbsp;<nobr></nobr></td>
+		<td class="ls_text_grid" align="right">&nbsp;<nobr></nobr></td>
+
+		<td class="ls_text_grid_div">&nbsp;</td>
+	</tr>
+<!-- endofWCTR_Tag -->
+	<tr>
+		<td class="ls_text_grid" align="right">14/12/2024</td>
+		<td class="ls_text_grid" align="right">19:30</td>
+		<td class="ls_text_grid" align="right">&nbsp;<nobr>0</nobr></td>
+		<td class="ls_text_grid" align="right">&nbsp;<nobr>0</nobr></td>
+		<td class="ls_text_grid" align="right">&nbsp;<nobr>0</nobr></td>
+		<td class="ls_text_grid" align="right">&nbsp;<nobr>0</nobr></td>
+
+		<td class="ls_text_grid" align="right">&nbsp;<nobr>0</nobr></td>
+		<td class="ls_text_grid" align="right">&nbsp;<nobr>0</nobr></td>
+		<td class="ls_text_grid" align="right">&nbsp;<nobr>0</nobr></td>
+		<td class="ls_text_grid" align="right">&nbsp;<nobr>0</nobr></td>
+		<td class="ls_text_grid" align="right">&nbsp;<nobr>0</nobr></td>
+		<td class="ls_text_grid" align="right">&nbsp;<nobr>0</nobr></td>
+
+		<td class="ls_text_grid" align="right">&nbsp;<nobr>-1</nobr></td>
+		<td class="ls_text_grid" align="right">&nbsp;<nobr>0</nobr></td>
+		<td class="ls_text_grid" align="right">&nbsp;<nobr>0</nobr></td>
+		<td class="ls_text_grid" align="right">&nbsp;<nobr>0</nobr></td>
+		<td class="ls_text_grid" align="right">&nbsp;<nobr></nobr></td>
+		<td class="ls_text_grid" align="right">&nbsp;<nobr></nobr></td>
+		<td class="ls_text_grid" align="right">&nbsp;<nobr></nobr></td>
+		<td class="ls_text_grid" align="right">&nbsp;<nobr></nobr></td>
+		<td class="ls_text_grid" align="right">&nbsp;<nobr></nobr></td>
+		<td class="ls_text_grid" align="right">&nbsp;<nobr></nobr></td>
+
+		<td class="ls_text_grid_div">&nbsp;</td>
+	</tr>
+<!-- endofWCTR_Tag -->
+	<tr>
+		<td class="ls_text_grid" align="right">14/12/2024</td>
+		<td class="ls_text_grid" align="right">20:00</td>
+		<td class="ls_text_grid" align="right">&nbsp;<nobr>0</nobr></td>
+		<td class="ls_text_grid" align="right">&nbsp;<nobr>0</nobr></td>
+		<td class="ls_text_grid" align="right">&nbsp;<nobr>0</nobr></td>
+		<td class="ls_text_grid" align="right">&nbsp;<nobr>0</nobr></td>
+
+		<td class="ls_text_grid" align="right">&nbsp;<nobr>0</nobr></td>
+		<td class="ls_text_grid" align="right">&nbsp;<nobr>0</nobr></td>
+		<td class="ls_text_grid" align="right">&nbsp;<nobr>0</nobr></td>
+		<td class="ls_text_grid" align="right">&nbsp;<nobr>0</nobr></td>
+		<td class="ls_text_grid" align="right">&nbsp;<nobr>0</nobr></td>
+		<td class="ls_text_grid" align="right">&nbsp;<nobr>0</nobr></td>
+
+		<td class="ls_text_grid" align="right">&nbsp;<nobr>-1</nobr></td>
+		<td class="ls_text_grid" align="right">&nbsp;<nobr>0</nobr></td>
+		<td class="ls_text_grid" align="right">&nbsp;<nobr>0</nobr></td>
+		<td class="ls_text_grid" align="right">&nbsp;<nobr>0</nobr></td>
+		<td class="ls_text_grid" align="right">&nbsp;<nobr></nobr></td>
+		<td class="ls_text_grid" align="right">&nbsp;<nobr></nobr></td>
+		<td class="ls_text_grid" align="right">&nbsp;<nobr></nobr></td>
+		<td class="ls_text_grid" align="right">&nbsp;<nobr></nobr></td>
+		<td class="ls_text_grid" align="right">&nbsp;<nobr></nobr></td>
+		<td class="ls_text_grid" align="right">&nbsp;<nobr></nobr></td>
+
+		<td class="ls_text_grid_div">&nbsp;</td>
+	</tr>
+<!-- endofWCTR_Tag -->
+	<tr>
+		<td class="ls_text_grid" align="right">14/12/2024</td>
+		<td class="ls_text_grid" align="right">20:30</td>
+		<td class="ls_text_grid" align="right">&nbsp;<nobr>0</nobr></td>
+		<td class="ls_text_grid" align="right">&nbsp;<nobr>0</nobr></td>
+		<td class="ls_text_grid" align="right">&nbsp;<nobr>0</nobr></td>
+		<td class="ls_text_grid" align="right">&nbsp;<nobr>0</nobr></td>
+
+		<td class="ls_text_grid" align="right">&nbsp;<nobr>0</nobr></td>
+		<td class="ls_text_grid" align="right">&nbsp;<nobr>0</nobr></td>
+		<td class="ls_text_grid" align="right">&nbsp;<nobr>0</nobr></td>
+		<td class="ls_text_grid" align="right">&nbsp;<nobr>0</nobr></td>
+		<td class="ls_text_grid" align="right">&nbsp;<nobr>0</nobr></td>
+		<td class="ls_text_grid" align="right">&nbsp;<nobr>0</nobr></td>
+
+		<td class="ls_text_grid" align="right">&nbsp;<nobr>-1</nobr></td>
+		<td class="ls_text_grid" align="right">&nbsp;<nobr>0</nobr></td>
+		<td class="ls_text_grid" align="right">&nbsp;<nobr>0</nobr></td>
+		<td class="ls_text_grid" align="right">&nbsp;<nobr>0</nobr></td>
+		<td class="ls_text_grid" align="right">&nbsp;<nobr></nobr></td>
+		<td class="ls_text_grid" align="right">&nbsp;<nobr></nobr></td>
+		<td class="ls_text_grid" align="right">&nbsp;<nobr></nobr></td>
+		<td class="ls_text_grid" align="right">&nbsp;<nobr></nobr></td>
+		<td class="ls_text_grid" align="right">&nbsp;<nobr></nobr></td>
+		<td class="ls_text_grid" align="right">&nbsp;<nobr></nobr></td>
+
+		<td class="ls_text_grid_div">&nbsp;</td>
+	</tr>
+<!-- endofWCTR_Tag -->
+	<tr>
+		<td class="ls_text_grid" align="right">14/12/2024</td>
+		<td class="ls_text_grid" align="right">21:00</td>
+		<td class="ls_text_grid" align="right">&nbsp;<nobr>0</nobr></td>
+		<td class="ls_text_grid" align="right">&nbsp;<nobr>0</nobr></td>
+		<td class="ls_text_grid" align="right">&nbsp;<nobr>0</nobr></td>
+		<td class="ls_text_grid" align="right">&nbsp;<nobr>0</nobr></td>
+
+		<td class="ls_text_grid" align="right">&nbsp;<nobr>0</nobr></td>
+		<td class="ls_text_grid" align="right">&nbsp;<nobr>0</nobr></td>
+		<td class="ls_text_grid" align="right">&nbsp;<nobr>0</nobr></td>
+		<td class="ls_text_grid" align="right">&nbsp;<nobr>0</nobr></td>
+		<td class="ls_text_grid" align="right">&nbsp;<nobr>0</nobr></td>
+		<td class="ls_text_grid" align="right">&nbsp;<nobr>0</nobr></td>
+
+		<td class="ls_text_grid" align="right">&nbsp;<nobr>-1</nobr></td>
+		<td class="ls_text_grid" align="right">&nbsp;<nobr>0</nobr></td>
+		<td class="ls_text_grid" align="right">&nbsp;<nobr>0</nobr></td>
+		<td class="ls_text_grid" align="right">&nbsp;<nobr>0</nobr></td>
+		<td class="ls_text_grid" align="right">&nbsp;<nobr></nobr></td>
+		<td class="ls_text_grid" align="right">&nbsp;<nobr></nobr></td>
+		<td class="ls_text_grid" align="right">&nbsp;<nobr></nobr></td>
+		<td class="ls_text_grid" align="right">&nbsp;<nobr></nobr></td>
+		<td class="ls_text_grid" align="right">&nbsp;<nobr></nobr></td>
+		<td class="ls_text_grid" align="right">&nbsp;<nobr></nobr></td>
+
+		<td class="ls_text_grid_div">&nbsp;</td>
+	</tr>
+<!-- endofWCTR_Tag -->
+	<tr>
+		<td class="ls_text_grid" align="right">14/12/2024</td>
+		<td class="ls_text_grid" align="right">21:30</td>
+		<td class="ls_text_grid" align="right">&nbsp;<nobr>0</nobr></td>
+		<td class="ls_text_grid" align="right">&nbsp;<nobr>0</nobr></td>
+		<td class="ls_text_grid" align="right">&nbsp;<nobr>0</nobr></td>
+		<td class="ls_text_grid" align="right">&nbsp;<nobr>0</nobr></td>
+
+		<td class="ls_text_grid" align="right">&nbsp;<nobr>0</nobr></td>
+		<td class="ls_text_grid" align="right">&nbsp;<nobr>0</nobr></td>
+		<td class="ls_text_grid" align="right">&nbsp;<nobr>0</nobr></td>
+		<td class="ls_text_grid" align="right">&nbsp;<nobr>0</nobr></td>
+		<td class="ls_text_grid" align="right">&nbsp;<nobr>0</nobr></td>
+		<td class="ls_text_grid" align="right">&nbsp;<nobr>0</nobr></td>
+
+		<td class="ls_text_grid" align="right">&nbsp;<nobr>-1</nobr></td>
+		<td class="ls_text_grid" align="right">&nbsp;<nobr>0</nobr></td>
+		<td class="ls_text_grid" align="right">&nbsp;<nobr>0</nobr></td>
+		<td class="ls_text_grid" align="right">&nbsp;<nobr>0</nobr></td>
+		<td class="ls_text_grid" align="right">&nbsp;<nobr></nobr></td>
+		<td class="ls_text_grid" align="right">&nbsp;<nobr></nobr></td>
+		<td class="ls_text_grid" align="right">&nbsp;<nobr></nobr></td>
+		<td class="ls_text_grid" align="right">&nbsp;<nobr></nobr></td>
+		<td class="ls_text_grid" align="right">&nbsp;<nobr></nobr></td>
+		<td class="ls_text_grid" align="right">&nbsp;<nobr></nobr></td>
+
+		<td class="ls_text_grid_div">&nbsp;</td>
+	</tr>
+<!-- endofWCTR_Tag -->
+	<tr>
+		<td class="ls_text_grid" align="right">14/12/2024</td>
+		<td class="ls_text_grid" align="right">22:00</td>
+		<td class="ls_text_grid" align="right">&nbsp;<nobr>0</nobr></td>
+		<td class="ls_text_grid" align="right">&nbsp;<nobr>0</nobr></td>
+		<td class="ls_text_grid" align="right">&nbsp;<nobr>0</nobr></td>
+		<td class="ls_text_grid" align="right">&nbsp;<nobr>0</nobr></td>
+
+		<td class="ls_text_grid" align="right">&nbsp;<nobr>0</nobr></td>
+		<td class="ls_text_grid" align="right">&nbsp;<nobr>0</nobr></td>
+		<td class="ls_text_grid" align="right">&nbsp;<nobr>0</nobr></td>
+		<td class="ls_text_grid" align="right">&nbsp;<nobr>0</nobr></td>
+		<td class="ls_text_grid" align="right">&nbsp;<nobr>0</nobr></td>
+		<td class="ls_text_grid" align="right">&nbsp;<nobr>0</nobr></td>
+
+		<td class="ls_text_grid" align="right">&nbsp;<nobr>-1</nobr></td>
+		<td class="ls_text_grid" align="right">&nbsp;<nobr>0</nobr></td>
+		<td class="ls_text_grid" align="right">&nbsp;<nobr>0</nobr></td>
+		<td class="ls_text_grid" align="right">&nbsp;<nobr>0</nobr></td>
+		<td class="ls_text_grid" align="right">&nbsp;<nobr></nobr></td>
+		<td class="ls_text_grid" align="right">&nbsp;<nobr></nobr></td>
+		<td class="ls_text_grid" align="right">&nbsp;<nobr></nobr></td>
+		<td class="ls_text_grid" align="right">&nbsp;<nobr></nobr></td>
+		<td class="ls_text_grid" align="right">&nbsp;<nobr></nobr></td>
+		<td class="ls_text_grid" align="right">&nbsp;<nobr></nobr></td>
+
+		<td class="ls_text_grid_div">&nbsp;</td>
+	</tr>
+<!-- endofWCTR_Tag -->
+	<tr>
+		<td class="ls_text_grid" align="right">14/12/2024</td>
+		<td class="ls_text_grid" align="right">22:30</td>
+		<td class="ls_text_grid" align="right">&nbsp;<nobr></nobr></td>
+		<td class="ls_text_grid" align="right">&nbsp;<nobr></nobr></td>
+		<td class="ls_text_grid" align="right">&nbsp;<nobr></nobr></td>
+		<td class="ls_text_grid" align="right">&nbsp;<nobr></nobr></td>
+
+		<td class="ls_text_grid" align="right">&nbsp;<nobr></nobr></td>
+		<td class="ls_text_grid" align="right">&nbsp;<nobr></nobr></td>
+		<td class="ls_text_grid" align="right">&nbsp;<nobr></nobr></td>
+		<td class="ls_text_grid" align="right">&nbsp;<nobr></nobr></td>
+		<td class="ls_text_grid" align="right">&nbsp;<nobr></nobr></td>
+		<td class="ls_text_grid" align="right">&nbsp;<nobr></nobr></td>
+
+		<td class="ls_text_grid" align="right">&nbsp;<nobr></nobr></td>
+		<td class="ls_text_grid" align="right">&nbsp;<nobr></nobr></td>
+		<td class="ls_text_grid" align="right">&nbsp;<nobr></nobr></td>
+		<td class="ls_text_grid" align="right">&nbsp;<nobr></nobr></td>
+		<td class="ls_text_grid" align="right">&nbsp;<nobr></nobr></td>
+		<td class="ls_text_grid" align="right">&nbsp;<nobr></nobr></td>
+		<td class="ls_text_grid" align="right">&nbsp;<nobr></nobr></td>
+		<td class="ls_text_grid" align="right">&nbsp;<nobr></nobr></td>
+		<td class="ls_text_grid" align="right">&nbsp;<nobr></nobr></td>
+		<td class="ls_text_grid" align="right">&nbsp;<nobr></nobr></td>
+
+		<td class="ls_text_grid_div">&nbsp;</td>
+	</tr>
+<!-- endofWCTR_Tag -->
+	<tr>
+		<td class="ls_text_grid" align="right">14/12/2024</td>
+		<td class="ls_text_grid" align="right">23:00</td>
+		<td class="ls_text_grid" align="right">&nbsp;<nobr></nobr></td>
+		<td class="ls_text_grid" align="right">&nbsp;<nobr></nobr></td>
+		<td class="ls_text_grid" align="right">&nbsp;<nobr></nobr></td>
+		<td class="ls_text_grid" align="right">&nbsp;<nobr></nobr></td>
+
+		<td class="ls_text_grid" align="right">&nbsp;<nobr></nobr></td>
+		<td class="ls_text_grid" align="right">&nbsp;<nobr></nobr></td>
+		<td class="ls_text_grid" align="right">&nbsp;<nobr></nobr></td>
+		<td class="ls_text_grid" align="right">&nbsp;<nobr></nobr></td>
+		<td class="ls_text_grid" align="right">&nbsp;<nobr></nobr></td>
+		<td class="ls_text_grid" align="right">&nbsp;<nobr></nobr></td>
+
+		<td class="ls_text_grid" align="right">&nbsp;<nobr></nobr></td>
+		<td class="ls_text_grid" align="right">&nbsp;<nobr></nobr></td>
+		<td class="ls_text_grid" align="right">&nbsp;<nobr></nobr></td>
+		<td class="ls_text_grid" align="right">&nbsp;<nobr></nobr></td>
+		<td class="ls_text_grid" align="right">&nbsp;<nobr></nobr></td>
+		<td class="ls_text_grid" align="right">&nbsp;<nobr></nobr></td>
+		<td class="ls_text_grid" align="right">&nbsp;<nobr></nobr></td>
+		<td class="ls_text_grid" align="right">&nbsp;<nobr></nobr></td>
+		<td class="ls_text_grid" align="right">&nbsp;<nobr></nobr></td>
+		<td class="ls_text_grid" align="right">&nbsp;<nobr></nobr></td>
+
+		<td class="ls_text_grid_div">&nbsp;</td>
+	</tr>
+<!-- endofWCTR_Tag -->
+	<tr>
+		<td class="ls_text_grid" align="right">14/12/2024</td>
+		<td class="ls_text_grid" align="right">23:30</td>
+		<td class="ls_text_grid" align="right">&nbsp;<nobr></nobr></td>
+		<td class="ls_text_grid" align="right">&nbsp;<nobr></nobr></td>
+		<td class="ls_text_grid" align="right">&nbsp;<nobr></nobr></td>
+		<td class="ls_text_grid" align="right">&nbsp;<nobr></nobr></td>
+
+		<td class="ls_text_grid" align="right">&nbsp;<nobr></nobr></td>
+		<td class="ls_text_grid" align="right">&nbsp;<nobr></nobr></td>
+		<td class="ls_text_grid" align="right">&nbsp;<nobr></nobr></td>
+		<td class="ls_text_grid" align="right">&nbsp;<nobr></nobr></td>
+		<td class="ls_text_grid" align="right">&nbsp;<nobr></nobr></td>
+		<td class="ls_text_grid" align="right">&nbsp;<nobr></nobr></td>
+
+		<td class="ls_text_grid" align="right">&nbsp;<nobr></nobr></td>
+		<td class="ls_text_grid" align="right">&nbsp;<nobr></nobr></td>
+		<td class="ls_text_grid" align="right">&nbsp;<nobr></nobr></td>
+		<td class="ls_text_grid" align="right">&nbsp;<nobr></nobr></td>
+		<td class="ls_text_grid" align="right">&nbsp;<nobr></nobr></td>
+		<td class="ls_text_grid" align="right">&nbsp;<nobr></nobr></td>
+		<td class="ls_text_grid" align="right">&nbsp;<nobr></nobr></td>
+		<td class="ls_text_grid" align="right">&nbsp;<nobr></nobr></td>
+		<td class="ls_text_grid" align="right">&nbsp;<nobr></nobr></td>
+		<td class="ls_text_grid" align="right">&nbsp;<nobr></nobr></td>
+
+		<td class="ls_text_grid_div">&nbsp;</td>
+	</tr>
+<!-- endofWCTR_Tag -->
+	</tbody>
+</table>
+</div>
+<!-- WCTR_Tag=DBControl -->
+<!-- END OF LIST -->
+<style>
+.DBGridContent {
+    /* width:100%; */
+    width:840;
+    height:380;
+	/* border-top: 0;
+	border-left: 0;
+	border-bottom: 0;
+	border-right: 0; */	
+	background:#ffffff;
+	filter:alpha(opacity=100);
+	-moz-opacity: 1.00; opacity: 1.00;
+}
+</style>
+<script language="javascript1.1" src="lib/FreezePane/wctr_freeze_v2.js"></script>
+<script type="text/javascript">
+<!--
+if(typeof DBGridScrollByObj == 'function') {
+	//ALLDBGridScrollById("LS_FreezePane_v2");
+	//ALLDBGridScrollById("LS_FreezePane_v3");
+	//DBGridScrollById("LS_FreezePane_v2",3,2);
+	//DBGridScrollByObj(,3,2);
+
+	var odivDBGrid = document.getElementById("divDBGrid");
+	var oDBGridContent = odivDBGrid.getElementsByClassName('DBGridContent')[0];
+	//var oDBGridContent = odivDBGrid.getElementsByTagName('Table')[0];
+	DBGridScrollByObj(oDBGridContent,2,2);
+}
+//-->
+</script>
+</td></tr>
+	<!-- <tr><td></td></tr> -->
+</tbody></table>
+<img src="images/spacer.gif" height="4" border="0">
+<!-- endofWCTR_Tag -->
+<script language="javascript1.1" src="include/lib/FreezePane/wctr_freeze.js"></script>
+<link rel="StyleSheet" href="include/lib/FreezePane/wctr_freeze.css" type="text/css" id="LS_FreezePane" title="FreezePane">
+<script language="javascript1.1" src="include/lib/FreezePane/wctr_freeze_v2.js"></script>
+
+</body></html>
