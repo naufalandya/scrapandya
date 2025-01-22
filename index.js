@@ -186,10 +186,12 @@ app.get('/fetch-jawa7', async (req, res) => {
 
 
 app.get('/fetch-jawa7-bulan', async (req, res) => {
-    log('Getting data from Jawa 7 for this month');
+    log('Getting monthly data from Jawa 7');
     try {
-        const startOfMonth = dayjs().startOf('month'); // Tanggal awal bulan
-        const endOfMonth = dayjs().endOf('month'); // Tanggal akhir bulan
+        const month = dayjs().month() + 1;
+        const year = dayjs().year();
+        const startDay = dayjs(`${year}-${month}-01`).startOf('month').date();
+        const endDay = dayjs(`${year}-${month}-01`).endOf('month').date();
 
         const units = {
             '1013101': 'Pembangkit 1',
@@ -201,7 +203,7 @@ app.get('/fetch-jawa7-bulan', async (req, res) => {
 
         for (const [key, value] of Object.entries(units)) {
             try {
-                const url = `https://amr.pln-jawa-bali.co.id/system.php?sethtmlprop_starttime_lday=${startOfMonth.date()}&sethtmlprop_starttime_lmonth=${startOfMonth.month() + 1}&sethtmlprop_starttime_lyear=${startOfMonth.year()}&sethtmlprop_starttime_lhour=00&sethtmlprop_starttime_lmin=00&sethtmlprop_starttime=${startOfMonth.format('YYYY-MM-DD+HH%3Amm%3A00')}&sethtmlprop_starttime_FixDatebox=TRUE&sethtmlprop_endtime_lday=${endOfMonth.date()}&sethtmlprop_endtime_lmonth=${endOfMonth.month() + 1}&sethtmlprop_endtime_lyear=${endOfMonth.year()}&sethtmlprop_endtime_lhour=23&sethtmlprop_endtime_lmin=59&sethtmlprop_endtime=${endOfMonth.format('YYYY-MM-DD+HH%3Amm%3A00')}&sethtmlprop_endtime_FixDatebox=TRUE&action_ok=+++OK+++&sSession=MAIL-XXXXXX-BZUwGoOgfyenSwbfhEmvjtLySCyGbSSF&amp&sys=Mtr_LP_Validation_KIT_20ch&subsys=List&subsyspart=Detail&action=post&set_referer=&id=${key}&isnewpopup=1&isfullscreen=0`;
+                const url = `https://amr.pln-jawa-bali.co.id/system.php?sethtmlprop_starttime_lday=${startDay}&sethtmlprop_starttime_lmonth=${month}&sethtmlprop_starttime_lyear=${year}&sethtmlprop_starttime_lhour=00&sethtmlprop_starttime_lmin=00&sethtmlprop_starttime=${year}-${month}-01+00%3A00%3A00&sethtmlprop_starttime_FixDatebox=TRUE&sethtmlprop_endtime_lday=${endDay}&sethtmlprop_endtime_lmonth=${month}&sethtmlprop_endtime_lyear=${year}&sethtmlprop_endtime_lhour=23&sethtmlprop_endtime_lmin=59&sethtmlprop_endtime=${year}-${month}-${endDay}+23%3A59%3A00&sethtmlprop_endtime_FixDatebox=TRUE&action_ok=+++OK+++&sSession=MAIL-XXXXXX-AITyWHEquEaMsRRBQuNkJvCBVyCBayYa&amp&sys=Mtr_LP_Validation_KIT_20ch&subsys=List&subsyspart=Detail&action=post&set_referer=&id=${key}&isnewpopup=1&isfullscreen=0`;
                 log('Fetching from', { url });
 
                 const response = await axios.get(url);
@@ -223,8 +225,7 @@ app.get('/fetch-jawa7-bulan', async (req, res) => {
                     }
                 });
 
-                const rawHtmlPath = path.join(__dirname, 'raw-html-response.txt');
-                fs.writeFileSync(rawHtmlPath, $.html());
+                log('Data rows fetched:', rows);
 
                 const kWhOut = rows.reduce((carry, row) => {
                     try {
@@ -260,15 +261,12 @@ app.get('/fetch-jawa7-bulan', async (req, res) => {
         dataJawa7['MW Kumulatif'] = dataKumulatif.MW;
         dataJawa7['Max MW'] = 2000;
 
-        log('Data Jawa 7 saved:', dataJawa7);
-
-        const filePath = path.join(__dirname, 'data-jawa7.json');
-        fs.writeFileSync(filePath, JSON.stringify({ data: dataJawa7 }, null, 2));
+        log('Monthly Data Jawa 7 saved:', dataJawa7);
 
         res.json({ data: dataJawa7 });
     } catch (error) {
-        log('Failed getting data Jawa 7:', { error });
-        res.status(500).send('Jawa 7 Failed!');
+        log('Failed getting monthly data Jawa 7:', { error });
+        res.status(500).send('Jawa 7 Monthly Data Failed!');
     }
 });
 
